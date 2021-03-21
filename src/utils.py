@@ -35,9 +35,10 @@ def mkdir(path: str):
 
 
 @retry(stop=stop_after_attempt(3),wait=wait_fixed(10))
-def image_download(url, cookies):
-    img = requests.get(url, cookies=cookies, headers=headers)
-    return img.content
+def request(url, cookies):
+    r = requests.get(url, headers=headers, cookies=cookies)
+    r.encoding = "gbk"
+    return r
 
 
 def no_utf8_code(text) -> str: return text.encode(encoding="gbk", errors="ignore").decode(encoding="gbk",
