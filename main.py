@@ -56,9 +56,6 @@ while True:
                 c = requests.get(f"http://dl.wenku8.com/packtxt.php?aid={id}&vid={j['cid']}&charset=gbk",
                                  cookies=cookies, headers=headers)
                 c.encoding = "gbk"
-                with open(chapter_dir + "/" + i["name"] + ".txt", "w") as f:
-                    text = c.text.encode(encoding="gbk", errors="ignore").decode(encoding="gbk", errors="ignore")
-                    f.write(text)
                 if j["name"] == "插图":
                     print(f"下载{i['name']}插图中...")
                     imgs_dir = chapter_dir + "/" + "插图"
@@ -68,6 +65,10 @@ while True:
                         with open(imgs_dir + "/" + str(imgs.index(l)) + ".jpg", "wb") as f:
                             print(f"保存第{str(imgs.index(l))}张插图")
                             f.write(image_download(l, cookies))
+                else:
+                    with open(chapter_dir + "/" + i["name"] + ".txt", "a") as f:
+                        text = c.text.encode(encoding="gbk", errors="ignore").decode(encoding="gbk", errors="ignore")
+                        f.write(text)
         print("下载完成！")
     except KeyboardInterrupt:
         sys.exit()
