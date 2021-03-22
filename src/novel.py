@@ -7,7 +7,7 @@ from tenacity import retry, stop_after_attempt, retry_if_exception_type
 from urllib3.exceptions import ConnectionError, ProtocolError
 
 from .user import SelfUser
-from .utils import fastRegex
+from .utils import fast_regex
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0',
@@ -38,13 +38,13 @@ class Novel:
         main_page = BeautifulSoup(main_page_request.text, features="html.parser")
         main_web_content = main_page.text
         cls.id = articleid
-        cls.title = fastRegex(r"板([\s\S]*)\[推", main_web_content).lstrip()
+        cls.title = fast_regex(r"板([\s\S]*)\[推", main_web_content).lstrip()
         assert bool(cls.title)
-        cls.author = fastRegex(r"小说作者：(.*)", main_web_content)
-        cls.library = fastRegex(r"文库分类：(.*)", main_web_content)
-        cls.status = fastRegex(r"文章状态：(.*)", main_web_content)
+        cls.author = fast_regex(r"小说作者：(.*)", main_web_content)
+        cls.library = fast_regex(r"文库分类：(.*)", main_web_content)
+        cls.status = fast_regex(r"文章状态：(.*)", main_web_content)
         cls.copyright = True if main_web_content.find("版权问题") == -1 else False
-        cls.briefIntroduction = fastRegex(r"内容简介：([\s\S]*)阅读", main_web_content).lstrip().rstrip()
+        cls.briefIntroduction = fast_regex(r"内容简介：([\s\S]*)阅读", main_web_content).lstrip().rstrip()
         cls.cover = f"https://img.wenku8.com/image/{2 if cls.status == '连载中' else 0}/{cls.id}/{cls.id}s.jpg"
         for i in [0, 1, 2]:
             read_page_request = requests.get(

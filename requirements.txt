@@ -2,3 +2,4 @@ requests
 BeautifulSoup4
 tenacity
 regex
+Pillow

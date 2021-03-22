@@ -1,8 +1,10 @@
 import os
+from io import BytesIO
 from typing import List
 
 import regex
 import requests
+from PIL import Image
 from bs4 import BeautifulSoup
 from tenacity import *
 
@@ -11,7 +13,7 @@ headers = {
 }
 
 
-def fastRegex(pattern: str, text: str) -> str:
+def fast_regex(pattern: str, text: str) -> str:
     try:
         return regex.compile(pattern, regex.MULTILINE).search(text)[1]
     except TypeError:
@@ -34,7 +36,7 @@ def mkdir(path: str):
         os.mkdir(path)
 
 
-@retry(stop=stop_after_attempt(3),wait=wait_fixed(10))
+@retry(stop=stop_after_attempt(3), wait=wait_fixed(5))
 def request(url, cookies):
     r = requests.get(url, headers=headers, cookies=cookies)
     r.encoding = "gbk"
@@ -43,3 +45,14 @@ def request(url, cookies):
 
 def no_utf8_code(text) -> str: return text.encode(encoding="gbk", errors="ignore").decode(encoding="gbk",
                                                                                           errors="ignore")
+
+
+def resize(rimg):
+    i = Image.open(BytesIO(rimg))
+    rw, rh = i.size
+    h = (120*rh) / rw
+    i = i.resize((120, int(h)))
+    b = BytesIO()
+    i.save(b, format="jpeg")
+    img = b.getvalue()
+    return img

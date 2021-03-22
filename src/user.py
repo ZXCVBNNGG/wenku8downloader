@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from requests.cookies import RequestsCookieJar
 
 from .exceptions import LoginFailedError
-from .utils import fastRegex
+from .utils import fast_regex
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0',
@@ -39,22 +39,22 @@ class User(object):
         userinfo_request.encoding = "gbk"
         userinfo_page = BeautifulSoup(userinfo_request.text, features="html.parser")
         userinfo_page_content = userinfo_page.text
-        cls.id = int(fastRegex(r"用户ID：\n(\d*)", userinfo_page_content))
-        cls.username = fastRegex(r"用户名：\n(.*)", userinfo_page_content)
-        cls.nickname = fastRegex(r"昵称：\n(.*)\(留空则用户名做昵称\)", userinfo_page_content)
-        cls.level = fastRegex(r"等级：\n(.*)", userinfo_page_content)
-        cls.title = fastRegex(r"头衔：\n(.*)", userinfo_page_content)
-        cls.gender = fastRegex(r"性别：\n(.*)", userinfo_page_content)
-        cls.email = fastRegex(r"Email：\n(.*)", userinfo_page_content)
-        cls.qq = fastRegex(r"QQ：\n(.*)", userinfo_page_content)
-        cls.msn = fastRegex(r"MSN：\n(.*)", userinfo_page_content)
-        cls.website = fastRegex(r"网站：\n(.*)", userinfo_page_content)
-        cls.registrationDate = fastRegex(r"注册日期：\n(.*)", userinfo_page_content)
-        cls.contribution = int(fastRegex(r"贡献值：\n(.*)", userinfo_page_content))
-        cls.experience = int(fastRegex(r"经验值：\n(.*)", userinfo_page_content))
-        cls.existingPoints = int(fastRegex(r"现有积分：\n(.*)", userinfo_page_content))
-        cls.userSignature = fastRegex(r"用户签名：\n(.*)", userinfo_page_content)
-        cls.personalProfile = fastRegex(r"个人简介：\n(.*)", userinfo_page_content)
+        cls.id = int(fast_regex(r"用户ID：\n(\d*)", userinfo_page_content))
+        cls.username = fast_regex(r"用户名：\n(.*)", userinfo_page_content)
+        cls.nickname = fast_regex(r"昵称：\n(.*)\(留空则用户名做昵称\)", userinfo_page_content)
+        cls.level = fast_regex(r"等级：\n(.*)", userinfo_page_content)
+        cls.title = fast_regex(r"头衔：\n(.*)", userinfo_page_content)
+        cls.gender = fast_regex(r"性别：\n(.*)", userinfo_page_content)
+        cls.email = fast_regex(r"Email：\n(.*)", userinfo_page_content)
+        cls.qq = fast_regex(r"QQ：\n(.*)", userinfo_page_content)
+        cls.msn = fast_regex(r"MSN：\n(.*)", userinfo_page_content)
+        cls.website = fast_regex(r"网站：\n(.*)", userinfo_page_content)
+        cls.registrationDate = fast_regex(r"注册日期：\n(.*)", userinfo_page_content)
+        cls.contribution = int(fast_regex(r"贡献值：\n(.*)", userinfo_page_content))
+        cls.experience = int(fast_regex(r"经验值：\n(.*)", userinfo_page_content))
+        cls.existingPoints = int(fast_regex(r"现有积分：\n(.*)", userinfo_page_content))
+        cls.userSignature = fast_regex(r"用户签名：\n(.*)", userinfo_page_content)
+        cls.personalProfile = fast_regex(r"个人简介：\n(.*)", userinfo_page_content)
 
 
 class SelfUser(User):
@@ -82,11 +82,11 @@ class SelfUser(User):
                                                headers=headers)
             user_detail_request.encoding = "gbk"
             text = BeautifulSoup(user_detail_request.text, features="html.parser").text
-            cls.id = int(fastRegex(r"用户ID：\n(\d*)", text))
-            cls.maximumNumberOfFriends = int(fastRegex(r"最多好友数：\n(\d*)", text))
-            cls.maximumNumberOfMessagesInMailbox = int(fastRegex(r"信箱最多消息数：\n(\d*)", text))
-            cls.maximumCollectionOfBookshelves = int(fastRegex(r"书架最大收藏量：\n(\d*)", text))
-            cls.allowRecommendationsPerDay = int(fastRegex(r"每天允许推荐次数：\n(\d*)", text))
+            cls.id = int(fast_regex(r"用户ID：\n(\d*)", text))
+            cls.maximumNumberOfFriends = int(fast_regex(r"最多好友数：\n(\d*)", text))
+            cls.maximumNumberOfMessagesInMailbox = int(fast_regex(r"信箱最多消息数：\n(\d*)", text))
+            cls.maximumCollectionOfBookshelves = int(fast_regex(r"书架最大收藏量：\n(\d*)", text))
+            cls.allowRecommendationsPerDay = int(fast_regex(r"每天允许推荐次数：\n(\d*)", text))
         else:
             raise LoginFailedError
 
@@ -98,11 +98,11 @@ class SelfUser(User):
                                                headers=headers)
             user_detail_request.encoding = "gbk"
             text = BeautifulSoup(user_detail_request.text, features="html.parser").text
-            cls.id = int(fastRegex(r"用户ID：\n(\d*)", text))
-            cls.maximumNumberOfFriends = int(fastRegex(r"最多好友数：\n(\d*)", text))
-            cls.maximumNumberOfMessagesInMailbox = int(fastRegex(r"信箱最多消息数：\n(\d*)", text))
-            cls.maximumCollectionOfBookshelves = int(fastRegex(r"书架最大收藏量：\n(\d*)", text))
-            cls.allowRecommendationsPerDay = int(fastRegex(r"每天允许推荐次数：\n(\d*)", text))
+            cls.id = int(fast_regex(r"用户ID：\n(\d*)", text))
+            cls.maximumNumberOfFriends = int(fast_regex(r"最多好友数：\n(\d*)", text))
+            cls.maximumNumberOfMessagesInMailbox = int(fast_regex(r"信箱最多消息数：\n(\d*)", text))
+            cls.maximumCollectionOfBookshelves = int(fast_regex(r"书架最大收藏量：\n(\d*)", text))
+            cls.allowRecommendationsPerDay = int(fast_regex(r"每天允许推荐次数：\n(\d*)", text))
             return cls
         except:
             raise LoginFailedError
