@@ -47,11 +47,18 @@ def no_utf8_code(text) -> str: return text.encode(encoding="gbk", errors="ignore
                                                                                           errors="ignore")
 
 
-def resize(rimg):
-    i = Image.open(BytesIO(rimg))
-    rw, rh = i.size
-    h = (120*rh) / rw
-    i = i.resize((120, int(h)))
+def resize(raw_img, target_w=300, target_h=400):
+    i = Image.open(BytesIO(raw_img))
+    raw_w, raw_h = i.size
+    n1 = target_w/raw_w
+    n2 = target_h/raw_h
+    if n1 >= n2:
+        w = n2*raw_w
+        h = n2*raw_h
+    else:
+        w = n1*raw_w
+        h = n1*raw_h
+    i = i.resize((int(w), int(h)))
     b = BytesIO()
     i.save(b, format="jpeg")
     img = b.getvalue()
