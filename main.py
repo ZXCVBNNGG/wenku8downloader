@@ -20,7 +20,7 @@ headers = {
 
 print("欢迎使用Wenku8下载器")
 print("默认下载GBK编码文件")
-print("图片缩放默认分辨率为w=400或h=300")
+print("图片缩放默认分辨率为w*h=580*720,会自动添加黑边")
 cookiePath = path.dirname('.') + 'cookies.dat'
 try:
     if os.path.getsize(cookiePath) > 0:
