@@ -5,7 +5,6 @@ from typing import List
 import regex
 import requests
 from PIL import Image
-from PIL.ImageDraw import ImageDraw
 from bs4 import BeautifulSoup
 from tenacity import *
 
@@ -37,9 +36,9 @@ def mkdir(path: str):
         os.mkdir(path)
 
 
-@retry(stop=stop_after_attempt(3), wait=wait_fixed(5),)
+# @retry(retry_if_exception_type=TimeoutError)
 def request(url, cookies):
-    r = requests.get(url, headers=headers, cookies=cookies)
+    r = requests.get(url, headers=headers, cookies=cookies, timeout=1, auth=(1, 1), stream=True)
     r.encoding = "gbk"
     return r
 
@@ -62,9 +61,9 @@ def resize(raw_img, target_w=580, target_h=720):
         h = int(n1 * raw_h)
     i = i.resize((w, h))
     if w == target_w:
-        black_background.paste(i, (0, int((target_h - h) / 2), target_w, int((target_h - h) / 2,)+h))
+        black_background.paste(i, (0, int((target_h - h) / 2), target_w, int((target_h - h) / 2, ) + h))
     else:
-        black_background.paste(i, (int((target_w - w) / 2), 0, int((target_w - w) / 2) + w, target_h, ))
+        black_background.paste(i, (int((target_w - w) / 2), 0, int((target_w - w) / 2) + w, target_h,))
     b = BytesIO()
     black_background.save(b, format="jpeg")
     img = b.getvalue()

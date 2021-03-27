@@ -19,6 +19,7 @@ class Novel:
     title: str
     author: str
     library: str
+    cover: str
     status: str
     statusCode: int
     totalWords: int
@@ -39,19 +40,19 @@ class Novel:
         main_web_content = main_page.text
         cls.id = articleid
         cls.title = fast_regex(r"板([\s\S]*)\[推", main_web_content).lstrip()
-        assert bool(cls.title)
-        cls.author = fast_regex(r"小说作者：(.*)", main_web_content)
-        cls.library = fast_regex(r"文库分类：(.*)", main_web_content)
-        cls.status = fast_regex(r"文章状态：(.*)", main_web_content)
-        cls.copyright = True if main_web_content.find("版权问题") == -1 else False
-        cls.briefIntroduction = fast_regex(r"内容简介：([\s\S]*)阅读", main_web_content).lstrip().rstrip()
-        cls.cover = f"https://img.wenku8.com/image/{2 if cls.status == '连载中' else 0}/{cls.id}/{cls.id}s.jpg"
         for i in [0, 1, 2]:
             read_page_request = requests.get(
                 f"http://www.wenku8.net/novel/{i}/{articleid}/index.htm",
                 cookies=SelfUser.cookies, headers=headers)
             if not read_page_request.status_code == 404:
                 cls.statusCode = i
+        assert bool(cls.title)
+        cls.author = fast_regex(r"小说作者：(.*)", main_web_content)
+        cls.library = fast_regex(r"文库分类：(.*)", main_web_content)
+        cls.status = fast_regex(r"文章状态：(.*)", main_web_content)
+        cls.copyright = True if main_web_content.find("版权问题") == -1 else False
+        cls.briefIntroduction = fast_regex(r"内容简介：([\s\S]*)阅读", main_web_content).lstrip().rstrip()
+        cls.cover = f"https://img.wenku8.com/image/{cls.statusCode}/{cls.id}/{cls.id}s.jpg"
         read_page_request = requests.get(
             f"http://www.wenku8.net/novel/{cls.statusCode}/{articleid}/index.htm",
             cookies=SelfUser.cookies, headers=headers)

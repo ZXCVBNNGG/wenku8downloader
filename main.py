@@ -81,8 +81,10 @@ while True:
                 elif i["chapters"].index(j) == 0:
                     c = request(f"http://dl2.wenku8.com/packtxt.php?aid={id}&vid={j['cid'] - 1}&charset=gbk", cookies)
                     with open(chapter_dir + "/" + i["name"] + ".txt", "a") as f:
+                        print("保存中...")
                         text = no_utf8_code(c.text)
                         f.write(text)
+                        print("保存成功")
         print("下载完成！")
     except KeyboardInterrupt:
         sys.exit()
