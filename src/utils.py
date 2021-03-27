@@ -36,9 +36,9 @@ def mkdir(path: str):
         os.mkdir(path)
 
 
-# @retry(retry_if_exception_type=TimeoutError)
+@retry()
 def request(url, cookies):
-    r = requests.get(url, headers=headers, cookies=cookies, timeout=1, auth=(1, 1), stream=True)
+    r = requests.get(url, headers=headers, cookies=cookies, stream=True)
     r.encoding = "gbk"
     return r
 
@@ -51,6 +51,9 @@ def resize(raw_img, target_w=580, target_h=720):
     i = Image.open(BytesIO(raw_img))
     raw_w, raw_h = i.size
     black_background = Image.new("RGB", (target_w, target_h))
+    if (raw_w > raw_h and target_w < target_h) or (raw_w < raw_h and target_w > target_h):
+        i = i.transpose(Image.ROTATE_270)
+    raw_w, raw_h = i.size
     n1 = target_w / raw_w
     n2 = target_h / raw_h
     if n1 >= n2:
@@ -61,9 +64,9 @@ def resize(raw_img, target_w=580, target_h=720):
         h = int(n1 * raw_h)
     i = i.resize((w, h))
     if w == target_w:
-        black_background.paste(i, (0, int((target_h - h) / 2), target_w, int((target_h - h) / 2, ) + h))
+        black_background.paste(i, (0, int((target_h - h) / 2)))
     else:
-        black_background.paste(i, (int((target_w - w) / 2), 0, int((target_w - w) / 2) + w, target_h,))
+        black_background.paste(i, (int((target_w - w) / 2), 0))
     b = BytesIO()
     black_background.save(b, format="jpeg")
     img = b.getvalue()
