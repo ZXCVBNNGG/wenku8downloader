@@ -15,7 +15,7 @@ from src.utils import request
 from src.utils import resize
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63',
 }
 
 print("欢迎使用Wenku8下载器")
@@ -79,7 +79,7 @@ while True:
                             print(f"保存第{str(imgs.index(l))}张插图")
                             f.write(resize(request(l, cookies).content if isResize else request(l, cookies).content))
                 elif i["chapters"].index(j) == 0:
-                    c = request(f"http://dl2.wenku8.com/packtxt.php?aid={id}&vid={j['cid'] - 1}&charset=gbk", cookies)
+                    c = request(f"http://dl3.wenku8.com/packtxt.php?aid={id}&vid={j['cid'] - 1}&charset=gbk", cookies)
                     with open(chapter_dir + "/" + i["name"] + ".txt", "a") as f:
                         print("保存中...")
                         text = no_utf8_code(c.text)
