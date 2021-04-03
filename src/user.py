@@ -103,6 +103,7 @@ class SelfUser(User):
             cls.maximumNumberOfMessagesInMailbox = int(fast_regex(r"信箱最多消息数：\n(\d*)", text))
             cls.maximumCollectionOfBookshelves = int(fast_regex(r"书架最大收藏量：\n(\d*)", text))
             cls.allowRecommendationsPerDay = int(fast_regex(r"每天允许推荐次数：\n(\d*)", text))
+            super().__init__(cls.id)
             return cls
         except:
             raise LoginFailedError

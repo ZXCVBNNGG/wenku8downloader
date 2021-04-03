@@ -1,27 +1,71 @@
+import logging
 import os
 import pickle
 import sys
 from os import path
 
 from PyQt5 import QtWidgets
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QPixmap, QIntValidator
+from PyQt5.QtWidgets import QTextBrowser
 from requests.cookies import RequestsCookieJar
 
-from src.exceptions import LoginFailedError
+from src.novel import Novel
 from src.ui.Login import Ui_Dialog
 from src.ui.MainWindow import Ui_mainWindow
 from src.user import SelfUser
 
 
+class QTextBrowserLogger(logging.Handler):
+    def __init__(self, parent: QTextBrowser):
+        super().__init__()
+        self.widget = parent
+        self.widget.setReadOnly(True)
+        self.widget.setEnabled(True)
+
+    def emit(self, record):
+        msg = self.format(record)
+        self.widget.append(msg)
+
+
 class MainWindow(QtWidgets.QMainWindow, Ui_mainWindow):
     def __init__(self, parent=None):
+        self.cachedBooks = {}
         super(MainWindow, self).__init__(parent=parent)
         self.setupUi(self)
 
-    def logger(self, text):
-        self.Logs.append(text)
-        cursor = self.Logs.textCursor()
-        self.Logs.moveCursor(cursor.End)
-        QtWidgets.QApplication.processEvents()
+    def setupUi(self, mainWindow):
+        super(MainWindow, self).setupUi(self)
+        self.Book.hide()
+        self.BookID.setValidator(QIntValidator())
+        self.BookList.itemClicked.connect(self.infoShow)
+        self.BookAdd.clicked.connect(self.add_novel)
+        logTextBox = QTextBrowserLogger(self.Logs)
+        logTextBox.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+        logging.getLogger().addHandler(logTextBox)
+        logging.getLogger().setLevel(logging.INFO)
+
+    def infoShow(self, name):
+        n = self.getByName(name)
+        cover = QPixmap()
+        cover.loadFromData(n.cover)
+        self.BookCover.setPixmap(cover)
+        self.BookTextInfo.setText(
+            f"标题：{n.title}\n作者：{n.author}\n文库：{n.library}\n状态：{n.status}\n简介：{n.briefIntroduction}")
+        for i in n.volumeList:
+            self.Volumes.addItem(i["name"])
+        self.Book.show()
+        self.BookTextInfo.setEnabled(True)
+
+    def add_novel(self):
+        if bool(self.BookID.text()):
+            logging.info("正在加载")
+            n = Novel(int(self.BookID.text()))
+            self.cachedBooks.update({n.title: n})
+            self.BookList.addItem(n.title)
+
+    def getByName(self, x) -> Novel:
+        return self.cachedBooks[x.text()]
 
 
 class LoginWindow(QtWidgets.QDialog, Ui_Dialog):
@@ -30,26 +74,29 @@ class LoginWindow(QtWidgets.QDialog, Ui_Dialog):
         self.setupUi(self)
 
     def setupUi(self, Dialog):
-        cookiePath = path.dirname('.') + 'cookies.dat'
-        try:
-            if os.path.getsize(cookiePath) > 0:
-                cookies: RequestsCookieJar = pickle.load(open(cookiePath, 'rb'))
-                self_user = SelfUser.fromCookies(cookies)
-        except FileNotFoundError:
-            account = self.username.text()
-            password = self.password.text()
-            try:
-                self_user = SelfUser(account, password)
-                cookies = self_user.cookies
-                pickle.dump(cookies, open(cookiePath, 'wb'))
-            except LoginFailedError:
-                self.login()
+        super(LoginWindow, self).setupUi(self)
+        self.setWindowModality(Qt.ApplicationModal)
+        self.buttonBox.accepted.connect(self.login(self.username.text(), self.password.text()))
+        self.buttonBox.rejected.connect(sys.exit())
+
+    def login(self, username, password):
+        self_user = SelfUser(username, password)
+        cookies = self_user.cookies
+        pickle.dump(cookies, open(cookiePath, 'wb'))
+        logging.info("登录成功")
 
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
+    cookiePath = path.dirname('.') + 'cookies.dat'
+    try:
+        if os.path.getsize(cookiePath) > 0:
+            cookies: RequestsCookieJar = pickle.load(open(cookiePath, 'rb'))
+            SelfUser.fromCookies(cookies)
+            logging.info("登录成功")
+    except FileNotFoundError:
+        l = LoginWindow()
+        l.show()
     w = MainWindow()
     w.show()
-    l = LoginWindow()
-    l.show()
     sys.exit(app.exec_())
