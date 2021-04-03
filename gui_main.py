@@ -59,8 +59,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_mainWindow):
 
     def add_novel(self):
         if bool(self.BookID.text()):
-            logging.info("正在加载")
+            logging.info("正在获取小说信息")
             n = Novel(int(self.BookID.text()))
+            logging.info(f"获取{n.title}信息成功")
             self.cachedBooks.update({n.title: n})
             self.BookList.addItem(n.title)
 
@@ -83,7 +84,6 @@ class LoginWindow(QtWidgets.QDialog, Ui_Dialog):
         self_user = SelfUser(username, password)
         cookies = self_user.cookies
         pickle.dump(cookies, open(cookiePath, 'wb'))
-        logging.info("登录成功")
 
 
 if __name__ == '__main__':
@@ -93,7 +93,6 @@ if __name__ == '__main__':
         if os.path.getsize(cookiePath) > 0:
             cookies: RequestsCookieJar = pickle.load(open(cookiePath, 'rb'))
             SelfUser.fromCookies(cookies)
-            logging.info("登录成功")
     except FileNotFoundError:
         l = LoginWindow()
         l.show()
