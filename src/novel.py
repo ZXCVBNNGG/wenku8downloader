@@ -52,7 +52,7 @@ class Novel:
         cls.status = fast_regex(r"文章状态：(.*)", main_web_content)
         cls.totalWords = fast_regex(r"全文长度：(.*)字", main_web_content)
         cls.copyright = True if main_web_content.find("版权问题") == -1 else False
-        cls.briefIntroduction = fast_regex(r"内容简介：([\s\S]*)阅读", main_web_content).lstrip().rstrip()
+        cls.briefIntroduction = fast_regex(r"内容简介：([\s\S]*)阅读", main_web_content).lstrip().rstrip().replace(' ', '').replace("\n\n", "").replace("	","")
         cls.cover = request(f"https://img.wenku8.com/image/{cls.statusCode}/{cls.id}/{cls.id}s.jpg",
                             SelfUser.cookies).content
         read_page_request = requests.get(

@@ -36,7 +36,7 @@ def mkdir(path: str):
         os.mkdir(path)
 
 
-@retry(stop=stop_after_attempt(3), wait=wait_fixed(5))
+@retry(stop=stop_after_attempt(10), wait=wait_fixed(5))
 def request(url, cookies):
     r = requests.get(url, headers=headers, cookies=cookies, stream=True, timeout=(30, 30))
     r.encoding = "gbk"
