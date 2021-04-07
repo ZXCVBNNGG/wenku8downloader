@@ -1,50 +1,52 @@
-# This is a basic workflow to help you get started with Actions
+name: make PyInstaller packaged release
 
-name: CI
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+  build-win-x86:
+    runs-on: windows-latest
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-
-    # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
+    - name: Set up Python 3.9 x86
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+        architecture: x86
+    - name: Install dependencies
       run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
-        docker run -v $GITHUB_WORKSPACE:/src cdrx/pyinstaller-windows:latest 'pyinstaller -F --clean -y --dist ./ --workpath /tmp main.py'
-    - name: Create Release
-      id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        pip install -r requirements.txt
+        pip install pyinstaller
+      shell: cmd
+    - name: Build
+      run: |
+        pyinstaller --onefile main.py
+    - name: Upload CLI artifact
+      uses: actions/upload-artifact@v2.1.4
       with:
-        tag_name: ${{ github.run_id }}
-        release_name: Release ${{ github.run_id }}
-        draft: false
-        prerelease: false
-    - name: Upload Release Asset
-      id: upload-release-asset
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        name: Wenku8Downloader-CLI-x86.exe
+        path: dist/main.exe
+
+  build-win-amd64:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9 x86
+      uses: actions/setup-python@v2
       with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ${{ github.workspace }}/main.exe
-        asset_name: wenku8downloader.exe
-        asset_content_type: application/exe
+        python-version: 3.9
+        architecture: x64
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+        pip install pyinstaller
+      shell: cmd
+    - name: Build
+      run: |
+        pyinstaller --onefile main.py
+    - name: Upload CLI artifact
+      uses: actions/upload-artifact@v2.1.4
+      with:
+        name: Wenku8Downloader-CLI-x64.exe
+        path: dist/main.exe
