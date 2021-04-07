@@ -1,4 +1,4 @@
-name: make PyInstaller packaged release
+name: Bulid-Win
 
 on:
   push:
@@ -22,11 +22,12 @@ jobs:
     - name: Build
       run: |
         pyinstaller --onefile main.py
+        rename dist/main.exe dist/Wenku8Downloader-CLI-x86.exe
     - name: Upload CLI artifact
       uses: actions/upload-artifact@v2.1.4
       with:
-        name: Wenku8Downloader-CLI-x86.exe
-        path: dist/main.exe
+        name: Wenku8Downloader-CLI-x86
+        path: dist/Wenku8Downloader-CLI-x86.exe
 
   build-win-amd64:
     runs-on: windows-latest
@@ -45,8 +46,9 @@ jobs:
     - name: Build
       run: |
         pyinstaller --onefile main.py
+        rename dist/main.exe dist/Wenku8Downloader-CLI-x64.exe
     - name: Upload CLI artifact
       uses: actions/upload-artifact@v2.1.4
       with:
-        name: Wenku8Downloader-CLI-x64.exe
-        path: dist/main.exe
+        name: Wenku8Downloader-CLI-x64
+        path: dist/Wenku8Downloader-CLI-x64.exe
