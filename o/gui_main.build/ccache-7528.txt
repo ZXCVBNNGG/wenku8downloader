@@ -1,0 +1,1154 @@
+[2021-04-05T20:11:44.406942 1296 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) base_dir = 
+[2021-04-05T20:11:44.406942 1296 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) compiler = 
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) compression = false
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) debug = false
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) disable = false
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) hard_link = false
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:44.406942 1296 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) max_files = 0
+[2021-04-05T20:11:44.406942 1296 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) path = 
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) read_only = false
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) recache = false
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) stats = true
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:44.406942 1296 ] Config: (default) umask = 
+[2021-04-05T20:11:44.406942 1296 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src __constants.c
+.PyQt5-preLoad.c
+[2021-04-05T20:11:44.564529 7400 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:44.564529 7400 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:44.564529 6820 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:44.566607 1296 ] Source file: __constants.c
+[2021-04-05T20:11:44.566607 1296 ] Object file: __constants.o
+[2021-04-05T20:11:44.566607 6820 ] Source file: __loader.c
+[2021-04-05T20:11:44.566607 6820 ] Object file: __loader.o
+[2021-04-05T20:11:44.566607 6336 ] Source file: __helpers.c
+[2021-04-05T20:11:44.566607 7400 ] Source file: module.PyQt5-preLoad.c
+[2021-04-05T20:11:44.566607 7400 ] Object file: module.PyQt5-preLoad.o
+[2021-04-05T20:11:44.566607 1296 ] Trying direct lookup
+[2021-04-05T20:11:44.567608 6820 ] Trying direct lookup
+[2021-04-05T20:11:44.567608 7400 ] Trying direct lookup
+[2021-04-05T20:11:44.567608 1296 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/0/1082a36e729f86b47f8e1aba677cd8-4738.manifest
+[2021-04-05T20:11:44.567608 1296 ] No such manifest file
+[2021-04-05T20:11:44.568608 1296 ] Did not find object file hash in manifest
+[2021-04-05T20:11:44.568608 7400 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/7/39e31c1b566095960f24143326df21-27582.manifest
+[2021-04-05T20:11:44.568608 6820 ] No such manifest file
+[2021-04-05T20:11:44.568608 6820 ] Did not find object file hash in manifest
+[2021-04-05T20:11:44.568608 6336 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/8/af82445d8f417a0ac2680ed761dfd3-78837.manifest
+[2021-04-05T20:11:44.569607 6336 ] No such manifest file
+[2021-04-05T20:11:44.569607 6336 ] Did not find object file hash in manifest
+[2021-04-05T20:11:44.572545 6820 ] Running preprocessor
+[2021-04-05T20:11:44.572545 6336 ] Running preprocessor
+[2021-04-05T20:11:44.572545 1296 ] Running preprocessor
+[2021-04-05T20:11:44.593606 7400 ] Did not find object file hash in manifest
+[2021-04-05T20:11:44.601606 7400 ] Running preprocessor
+[2021-04-05T20:11:45.499539 6820 ] Got object file hash from preprocessor
+[2021-04-05T20:11:45.499539 6820 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/b/f352aef1dd40470832256c3475082d-451531.o not in cache
+[2021-04-05T20:11:45.499539 6820 ] Running real compiler
+[2021-04-05T20:11:45.608057 1296 ] Got object file hash from preprocessor
+[2021-04-05T20:11:45.608057 1296 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/7689479435a0c5dc686904f6779626-595795.o not in cache
+[2021-04-05T20:11:45.608057 1296 ] Running real compiler
+[2021-04-05T20:11:45.623715 7400 ] Got object file hash from preprocessor
+[2021-04-05T20:11:45.623715 7400 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/c/413d26ae2de3b36e106920221084a0-610776.o not in cache
+[2021-04-05T20:11:45.623715 7400 ] Running real compiler
+[2021-04-05T20:11:45.639338 6336 ] Got object file hash from preprocessor
+[2021-04-05T20:11:45.639338 6336 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/d/5845fc0749e78fc3f3584da8c272e3-644165.o not in cache
+[2021-04-05T20:11:45.639338 6336 ] Running real compiler
+[2021-04-05T20:11:46.193442 1296 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/7689479435a0c5dc686904f6779626-595795.o.tmp.stdout.DESKTOP-OBGCDQU.1296.FzP5tM
+[2021-04-05T20:11:46.193442 1296 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/7689479435a0c5dc686904f6779626-595795.o.tmp.stderr.DESKTOP-OBGCDQU.1296.1QBI6D
+[2021-04-05T20:11:46.193442 6820 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/b/f352aef1dd40470832256c3475082d-451531.o.tmp.stdout.DESKTOP-OBGCDQU.6820.FzP5tM
+[2021-04-05T20:11:46.193442 6820 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/b/f352aef1dd40470832256c3475082d-451531.o.tmp.stderr.DESKTOP-OBGCDQU.6820.1QBI6D
+[2021-04-05T20:11:46.193442 1296 ] Copying __constants.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/7689479435a0c5dc686904f6779626-595795.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/7689479435a0c5dc686904f6779626-595795.o.DESKTOP-OBGCDQU.1296.SS92c3 (uncompressed)
+[2021-04-05T20:11:46.193442 6820 ] Copying __loader.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/b/f352aef1dd40470832256c3475082d-451531.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/b/f352aef1dd40470832256c3475082d-451531.o.DESKTOP-OBGCDQU.6820.SS92c3 (uncompressed)
+[2021-04-05T20:11:46.193442 1296 ] Stored in cache: __constants.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/7689479435a0c5dc686904f6779626-595795.o (copied)
+[2021-04-05T20:11:46.193442 6820 ] Stored in cache: __loader.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/b/f352aef1dd40470832256c3475082d-451531.o (copied)
+[2021-04-05T20:11:46.193442 1296 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/0/1082a36e729f86b47f8e1aba677cd8-4738.manifest
+[2021-04-05T20:11:46.193442 1296 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-04-05T20:11:46.193442 6820 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/e/6a71aec1499da58b8d6d5204e81274-52429.manifest
+[2021-04-05T20:11:46.193442 6820 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-04-05T20:11:46.193442 1296 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-04-05T20:11:46.209102 6820 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-04-05T20:11:46.209102 1296 ] Result: cache miss
+[2021-04-05T20:11:46.209102 1296 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-04-05T20:11:46.209102 6820 ] Result: cache miss
+[2021-04-05T20:11:46.209102 6820 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2021-04-05T20:11:46.209102 1296 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-04-05T20:11:46.209102 6820 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2021-04-05T20:11:46.271572 7400 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/c/413d26ae2de3b36e106920221084a0-610776.o.tmp.stdout.DESKTOP-OBGCDQU.7400.FzP5tM
+[2021-04-05T20:11:46.271572 7400 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/c/413d26ae2de3b36e106920221084a0-610776.o.tmp.stderr.DESKTOP-OBGCDQU.7400.1QBI6D
+[2021-04-05T20:11:46.271572 7400 ] Copying module.PyQt5-preLoad.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/c/413d26ae2de3b36e106920221084a0-610776.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/c/413d26ae2de3b36e106920221084a0-610776.o.DESKTOP-OBGCDQU.7400.SS92c3 (uncompressed)
+[2021-04-05T20:11:46.271572 7400 ] Stored in cache: module.PyQt5-preLoad.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/c/413d26ae2de3b36e106920221084a0-610776.o (copied)
+[2021-04-05T20:11:46.287166 7400 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/7/39e31c1b566095960f24143326df21-27582.manifest
+[2021-04-05T20:11:46.287166 7400 ] Result: cache miss
+[2021-04-05T20:11:46.287166 7400 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-04-05T20:11:46.287166 7400 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-04-05T20:11:46.302824 7276 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) base_dir = 
+[2021-04-05T20:11:46.302824 7276 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) compiler = 
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) compression = false
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) debug = false
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) disable = false
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) hard_link = false
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:46.302824 7276 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) max_files = 0
+[2021-04-05T20:11:46.302824 7276 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) path = 
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) read_only = false
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) recache = false
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) stats = true
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:46.302824 7276 ] Config: (default) umask = 
+[2021-04-05T20:11:46.302824 7276 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o module.PyQt5.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.PyQt5.c
+[2021-04-05T20:11:46.302824 7276 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:46.302824 7276 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:46.302824 7276 ] Source file: module.PyQt5.c
+[2021-04-05T20:11:46.302824 7276 ] Object file: module.PyQt5.o
+[2021-04-05T20:11:46.302824 7276 ] Trying direct lookup
+[2021-04-05T20:11:46.302824 7276 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/4/55eda74fac2da3836218ad8cba02df-71208.manifest
+[2021-04-05T20:11:46.318449 7276 ] Did not find object file hash in manifest
+[2021-04-05T20:11:46.318449 7276 ] Running preprocessor
+[2021-04-05T20:11:46.318449 6844 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) base_dir = 
+[2021-04-05T20:11:46.318449 6844 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) compiler = 
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) compression = false
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) debug = false
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) disable = false
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) hard_link = false
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:46.318449 6844 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) max_files = 0
+[2021-04-05T20:11:46.318449 6844 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) path = 
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) read_only = false
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) recache = false
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) stats = true
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:46.318449 6844 ] Config: (default) umask = 
+[2021-04-05T20:11:46.318449 6844 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o module.PyQt5.QtCore-postLoad.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.PyQt5.QtCore-postLoad.c
+[2021-04-05T20:11:46.318449 6844 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:46.318449 6844 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:46.318449 6844 ] Source file: module.PyQt5.QtCore-postLoad.c
+[2021-04-05T20:11:46.318449 6844 ] Object file: module.PyQt5.QtCore-postLoad.o
+[2021-04-05T20:11:46.318449 6844 ] Trying direct lookup
+[2021-04-05T20:11:46.318449 6844 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/c/016b3a28b2a7d3e6a3459549e77150-29432.manifest
+[2021-04-05T20:11:46.334012 6844 ] Did not find object file hash in manifest
+[2021-04-05T20:11:46.334012 6844 ] Running preprocessor
+[2021-04-05T20:11:46.380950 9268 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) base_dir = 
+[2021-04-05T20:11:46.380950 9268 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) compiler = 
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) compression = false
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) debug = false
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) disable = false
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) hard_link = false
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:46.380950 9268 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) max_files = 0
+[2021-04-05T20:11:46.380950 9268 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) path = 
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) read_only = false
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) recache = false
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) stats = true
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:46.380950 9268 ] Config: (default) umask = 
+[2021-04-05T20:11:46.380950 9268 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.__main__.c
+[2021-04-05T20:11:46.380950 9268 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:46.380950 9268 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:46.380950 9268 ] Source file: module.__main__.c
+[2021-04-05T20:11:46.380950 9268 ] Object file: module.__main__.o
+[2021-04-05T20:11:46.380950 9268 ] Trying direct lookup
+[2021-04-05T20:11:46.380950 9268 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/b/0239eb1fa71c73c090041be5bde6f6-725128.manifest
+[2021-04-05T20:11:46.380950 9268 ] No such manifest file
+[2021-04-05T20:11:46.380950 9268 ] Did not find object file hash in manifest
+[2021-04-05T20:11:46.380950 9268 ] Running preprocessor
+[2021-04-05T20:11:46.793723 6336 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/d/5845fc0749e78fc3f3584da8c272e3-644165.o.tmp.stdout.DESKTOP-OBGCDQU.6336.FzP5tM
+[2021-04-05T20:11:46.793723 6336 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/d/5845fc0749e78fc3f3584da8c272e3-644165.o.tmp.stderr.DESKTOP-OBGCDQU.6336.1QBI6D
+[2021-04-05T20:11:46.793723 6336 ] Copying __helpers.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/d/5845fc0749e78fc3f3584da8c272e3-644165.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/d/5845fc0749e78fc3f3584da8c272e3-644165.o.DESKTOP-OBGCDQU.6336.SS92c3 (uncompressed)
+[2021-04-05T20:11:46.793723 6336 ] Stored in cache: __helpers.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/d/5845fc0749e78fc3f3584da8c272e3-644165.o (copied)
+[2021-04-05T20:11:46.809348 6336 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/8/af82445d8f417a0ac2680ed761dfd3-78837.manifest
+[2021-04-05T20:11:46.809348 6336 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-04-05T20:11:46.809348 6336 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-04-05T20:11:46.809348 6336 ] Result: cache miss
+[2021-04-05T20:11:46.809348 6336 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-04-05T20:11:46.824971 6336 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-04-05T20:11:46.824971 7276 ] Got object file hash from preprocessor
+[2021-04-05T20:11:46.824971 7276 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/e283f1ee8a1bf5ef3e2f2250d91f8e-654049.o not in cache
+[2021-04-05T20:11:46.824971 7276 ] Running real compiler
+[2021-04-05T20:11:46.903036 8476 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) base_dir = 
+[2021-04-05T20:11:46.903036 8476 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) compiler = 
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) compression = false
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) debug = false
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) disable = false
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) hard_link = false
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:46.903036 8476 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) max_files = 0
+[2021-04-05T20:11:46.903036 8476 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) path = 
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) read_only = false
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) recache = false
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) stats = true
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:46.903036 8476 ] Config: (default) umask = 
+[2021-04-05T20:11:46.903036 8476 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o module.src.bookcase.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.src.bookcase.c
+[2021-04-05T20:11:46.903036 8476 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:46.903036 8476 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:46.903036 8476 ] Source file: module.src.bookcase.c
+[2021-04-05T20:11:46.903036 8476 ] Object file: module.src.bookcase.o
+[2021-04-05T20:11:46.903036 8476 ] Trying direct lookup
+[2021-04-05T20:11:46.903036 8476 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/a/52eddcd05782257abf0cf86ece3e37-86685.manifest
+[2021-04-05T20:11:46.903036 8476 ] Did not find object file hash in manifest
+[2021-04-05T20:11:46.903036 8476 ] Running preprocessor
+[2021-04-05T20:11:46.903036 6844 ] Got object file hash from preprocessor
+[2021-04-05T20:11:46.918723 6844 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/1/28db0a5f420c7e41fbde9e1d333b46-612938.o not in cache
+[2021-04-05T20:11:46.918723 6844 ] Running real compiler
+[2021-04-05T20:11:46.934349 9268 ] Got object file hash from preprocessor
+[2021-04-05T20:11:46.934349 9268 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/a/5003ef9eb25e57b2399b4368df7cd4-1289430.o not in cache
+[2021-04-05T20:11:46.934349 9268 ] Running real compiler
+[2021-04-05T20:11:47.393466 8476 ] Got object file hash from preprocessor
+[2021-04-05T20:11:47.393466 8476 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/d/a22251ab6b6ed9e8da72ff357c0e34-669574.o not in cache
+[2021-04-05T20:11:47.393466 8476 ] Running real compiler
+[2021-04-05T20:11:47.624058 6844 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/1/28db0a5f420c7e41fbde9e1d333b46-612938.o.tmp.stdout.DESKTOP-OBGCDQU.6844.FzP5tM
+[2021-04-05T20:11:47.624058 6844 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/1/28db0a5f420c7e41fbde9e1d333b46-612938.o.tmp.stderr.DESKTOP-OBGCDQU.6844.1QBI6D
+[2021-04-05T20:11:47.624058 6844 ] Copying module.PyQt5.QtCore-postLoad.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/1/28db0a5f420c7e41fbde9e1d333b46-612938.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/1/28db0a5f420c7e41fbde9e1d333b46-612938.o.DESKTOP-OBGCDQU.6844.SS92c3 (uncompressed)
+[2021-04-05T20:11:47.639715 6844 ] Stored in cache: module.PyQt5.QtCore-postLoad.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/1/28db0a5f420c7e41fbde9e1d333b46-612938.o (copied)
+[2021-04-05T20:11:47.655345 6844 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/c/016b3a28b2a7d3e6a3459549e77150-29432.manifest
+[2021-04-05T20:11:47.655345 6844 ] Result: cache miss
+[2021-04-05T20:11:47.655345 6844 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-04-05T20:11:47.655345 6844 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-04-05T20:11:47.874030 5768 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) base_dir = 
+[2021-04-05T20:11:47.874030 5768 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) compiler = 
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) compression = false
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) debug = false
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) disable = false
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) hard_link = false
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:47.874030 5768 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) max_files = 0
+[2021-04-05T20:11:47.874030 5768 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) path = 
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) read_only = false
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) recache = false
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) stats = true
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:47.874030 5768 ] Config: (default) umask = 
+[2021-04-05T20:11:47.874030 5768 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o module.src.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.src.c
+[2021-04-05T20:11:47.874030 5768 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:47.874030 5768 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:47.874030 5768 ] Source file: module.src.c
+[2021-04-05T20:11:47.874030 5768 ] Object file: module.src.o
+[2021-04-05T20:11:47.874030 5768 ] Trying direct lookup
+[2021-04-05T20:11:47.874030 5768 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/c/379f74a73b3d7a4d55d33ff390f84c-25243.manifest
+[2021-04-05T20:11:47.889714 5768 ] Did not find object file hash in manifest
+[2021-04-05T20:11:47.889714 5768 ] Running preprocessor
+[2021-04-05T20:11:48.288732 7276 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/e283f1ee8a1bf5ef3e2f2250d91f8e-654049.o.tmp.stdout.DESKTOP-OBGCDQU.7276.FzP5tM
+[2021-04-05T20:11:48.304357 7276 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/e283f1ee8a1bf5ef3e2f2250d91f8e-654049.o.tmp.stderr.DESKTOP-OBGCDQU.7276.1QBI6D
+[2021-04-05T20:11:48.304357 7276 ] Copying module.PyQt5.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/e283f1ee8a1bf5ef3e2f2250d91f8e-654049.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/e283f1ee8a1bf5ef3e2f2250d91f8e-654049.o.DESKTOP-OBGCDQU.7276.SS92c3 (uncompressed)
+[2021-04-05T20:11:48.304357 7276 ] Stored in cache: module.PyQt5.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/e283f1ee8a1bf5ef3e2f2250d91f8e-654049.o (copied)
+[2021-04-05T20:11:48.304357 7276 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/4/55eda74fac2da3836218ad8cba02df-71208.manifest
+[2021-04-05T20:11:48.319981 7276 ] Result: cache miss
+[2021-04-05T20:11:48.319981 7276 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-04-05T20:11:48.319981 7276 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-04-05T20:11:48.476201 5768 ] Got object file hash from preprocessor
+[2021-04-05T20:11:48.476201 5768 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/f/68148a7d4b0a60e1d6fc665c0519e3-608140.o not in cache
+[2021-04-05T20:11:48.476201 5768 ] Running real compiler
+[2021-04-05T20:11:48.476201 1460 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) base_dir = 
+[2021-04-05T20:11:48.476201 1460 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) compiler = 
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) compression = false
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) debug = false
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) disable = false
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) hard_link = false
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:48.476201 1460 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) max_files = 0
+[2021-04-05T20:11:48.476201 1460 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) path = 
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) read_only = false
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) recache = false
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) stats = true
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:48.476201 1460 ] Config: (default) umask = 
+[2021-04-05T20:11:48.476201 1460 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o module.src.downloader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.src.downloader.c
+[2021-04-05T20:11:48.476201 1460 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:48.476201 1460 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:48.476201 1460 ] Source file: module.src.downloader.c
+[2021-04-05T20:11:48.476201 1460 ] Object file: module.src.downloader.o
+[2021-04-05T20:11:48.476201 1460 ] Trying direct lookup
+[2021-04-05T20:11:48.476201 1460 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/0/fdd609111d6ec6e2735c1377863868-242304.manifest
+[2021-04-05T20:11:48.491858 1460 ] Did not find object file hash in manifest
+[2021-04-05T20:11:48.507486 1460 ] Running preprocessor
+[2021-04-05T20:11:48.781288 8476 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/d/a22251ab6b6ed9e8da72ff357c0e34-669574.o.tmp.stdout.DESKTOP-OBGCDQU.8476.FzP5tM
+[2021-04-05T20:11:48.781288 8476 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/d/a22251ab6b6ed9e8da72ff357c0e34-669574.o.tmp.stderr.DESKTOP-OBGCDQU.8476.1QBI6D
+[2021-04-05T20:11:48.781288 8476 ] Copying module.src.bookcase.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/d/a22251ab6b6ed9e8da72ff357c0e34-669574.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/d/a22251ab6b6ed9e8da72ff357c0e34-669574.o.DESKTOP-OBGCDQU.8476.SS92c3 (uncompressed)
+[2021-04-05T20:11:48.781288 8476 ] Stored in cache: module.src.bookcase.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/d/a22251ab6b6ed9e8da72ff357c0e34-669574.o (copied)
+[2021-04-05T20:11:48.796911 8476 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/a/52eddcd05782257abf0cf86ece3e37-86685.manifest
+[2021-04-05T20:11:48.796911 8476 ] Result: cache miss
+[2021-04-05T20:11:48.796911 8476 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-04-05T20:11:48.796911 8476 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-04-05T20:11:48.958339 8412 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) base_dir = 
+[2021-04-05T20:11:48.958339 8412 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) compiler = 
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) compression = false
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) debug = false
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) disable = false
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) hard_link = false
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:48.958339 8412 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) max_files = 0
+[2021-04-05T20:11:48.958339 8412 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) path = 
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) read_only = false
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) recache = false
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) stats = true
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:48.958339 8412 ] Config: (default) umask = 
+[2021-04-05T20:11:48.959339 8412 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o module.src.exceptions.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.src.exceptions.c
+[2021-04-05T20:11:48.959339 8412 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:48.959339 8412 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:48.959339 8412 ] Source file: module.src.exceptions.c
+[2021-04-05T20:11:48.959339 8412 ] Object file: module.src.exceptions.o
+[2021-04-05T20:11:48.959339 8412 ] Trying direct lookup
+[2021-04-05T20:11:48.960342 8412 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/1/0fc91d83833a08569d2b319e4a386d-41401.manifest
+[2021-04-05T20:11:48.970340 8412 ] Did not find object file hash in manifest
+[2021-04-05T20:11:48.971341 8412 ] Running preprocessor
+[2021-04-05T20:11:49.058296 1460 ] Got object file hash from preprocessor
+[2021-04-05T20:11:49.058296 1460 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/8/2aae635b26ba2bb7194117be02f82a-824407.o not in cache
+[2021-04-05T20:11:49.058296 1460 ] Running real compiler
+[2021-04-05T20:11:49.120339 5768 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/f/68148a7d4b0a60e1d6fc665c0519e3-608140.o.tmp.stdout.DESKTOP-OBGCDQU.5768.FzP5tM
+[2021-04-05T20:11:49.121316 5768 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/f/68148a7d4b0a60e1d6fc665c0519e3-608140.o.tmp.stderr.DESKTOP-OBGCDQU.5768.1QBI6D
+[2021-04-05T20:11:49.123309 5768 ] Copying module.src.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/f/68148a7d4b0a60e1d6fc665c0519e3-608140.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/f/68148a7d4b0a60e1d6fc665c0519e3-608140.o.DESKTOP-OBGCDQU.5768.SS92c3 (uncompressed)
+[2021-04-05T20:11:49.125309 5768 ] Stored in cache: module.src.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/f/68148a7d4b0a60e1d6fc665c0519e3-608140.o (copied)
+[2021-04-05T20:11:49.134352 5768 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/c/379f74a73b3d7a4d55d33ff390f84c-25243.manifest
+[2021-04-05T20:11:49.136345 5768 ] Result: cache miss
+[2021-04-05T20:11:49.137349 5768 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-04-05T20:11:49.140350 5768 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-04-05T20:11:49.239338 9960 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) base_dir = 
+[2021-04-05T20:11:49.239338 9960 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) compiler = 
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) compression = false
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) debug = false
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) disable = false
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) hard_link = false
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:49.239338 9960 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) max_files = 0
+[2021-04-05T20:11:49.239338 9960 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) path = 
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) read_only = false
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) recache = false
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) stats = true
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:49.239338 9960 ] Config: (default) umask = 
+[2021-04-05T20:11:49.240342 9960 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o module.src.novel.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.src.novel.c
+[2021-04-05T20:11:49.240342 9960 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:49.240342 9960 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:49.240342 9960 ] Source file: module.src.novel.c
+[2021-04-05T20:11:49.240342 9960 ] Object file: module.src.novel.o
+[2021-04-05T20:11:49.240342 9960 ] Trying direct lookup
+[2021-04-05T20:11:49.242342 9960 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/c/a0249373799c9fd4f4ff2dfbc4d914-261717.manifest
+[2021-04-05T20:11:49.253342 9960 ] Did not find object file hash in manifest
+[2021-04-05T20:11:49.260339 9960 ] Running preprocessor
+[2021-04-05T20:11:49.566340 8412 ] Got object file hash from preprocessor
+[2021-04-05T20:11:49.566340 8412 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/d/f0aba92b4701fd0603275999be56d9-624386.o not in cache
+[2021-04-05T20:11:49.566340 8412 ] Running real compiler
+[2021-04-05T20:11:49.728342 9960 ] Got object file hash from preprocessor
+[2021-04-05T20:11:49.728342 9960 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/f/51e73ac39f19fe97f0c2bd6b01641e-854719.o not in cache
+[2021-04-05T20:11:49.728342 9960 ] Running real compiler
+[2021-04-05T20:11:50.283348 8412 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/d/f0aba92b4701fd0603275999be56d9-624386.o.tmp.stdout.DESKTOP-OBGCDQU.8412.FzP5tM
+[2021-04-05T20:11:50.284346 8412 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/d/f0aba92b4701fd0603275999be56d9-624386.o.tmp.stderr.DESKTOP-OBGCDQU.8412.1QBI6D
+[2021-04-05T20:11:50.292343 8412 ] Copying module.src.exceptions.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/d/f0aba92b4701fd0603275999be56d9-624386.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/d/f0aba92b4701fd0603275999be56d9-624386.o.DESKTOP-OBGCDQU.8412.SS92c3 (uncompressed)
+[2021-04-05T20:11:50.294342 8412 ] Stored in cache: module.src.exceptions.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/d/f0aba92b4701fd0603275999be56d9-624386.o (copied)
+[2021-04-05T20:11:50.302344 8412 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/1/0fc91d83833a08569d2b319e4a386d-41401.manifest
+[2021-04-05T20:11:50.305348 8412 ] Result: cache miss
+[2021-04-05T20:11:50.306346 8412 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2021-04-05T20:11:50.310343 8412 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2021-04-05T20:11:50.474341 4992 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) base_dir = 
+[2021-04-05T20:11:50.474341 4992 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) compiler = 
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) compression = false
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) debug = false
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) disable = false
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) hard_link = false
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:50.474341 4992 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) max_files = 0
+[2021-04-05T20:11:50.474341 4992 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) path = 
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) read_only = false
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) recache = false
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) stats = true
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:50.474341 4992 ] Config: (default) umask = 
+[2021-04-05T20:11:50.475340 4992 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o module.src.ui.Login.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.src.ui.Login.c
+[2021-04-05T20:11:50.475340 4992 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:50.475340 4992 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:50.476340 4992 ] Source file: module.src.ui.Login.c
+[2021-04-05T20:11:50.476340 4992 ] Object file: module.src.ui.Login.o
+[2021-04-05T20:11:50.476340 4992 ] Trying direct lookup
+[2021-04-05T20:11:50.477341 4992 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/a018930df834684085bd82db65ae4e-145403.manifest
+[2021-04-05T20:11:50.488341 4992 ] Did not find object file hash in manifest
+[2021-04-05T20:11:50.493339 4992 ] Running preprocessor
+[2021-04-05T20:11:51.078343 4992 ] Got object file hash from preprocessor
+[2021-04-05T20:11:51.078343 4992 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/1/7b0b312c5ed53759e94ef367a0ab60-729855.o not in cache
+[2021-04-05T20:11:51.078343 4992 ] Running real compiler
+[2021-04-05T20:11:52.239344 1460 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/8/2aae635b26ba2bb7194117be02f82a-824407.o.tmp.stdout.DESKTOP-OBGCDQU.1460.FzP5tM
+[2021-04-05T20:11:52.240346 1460 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/8/2aae635b26ba2bb7194117be02f82a-824407.o.tmp.stderr.DESKTOP-OBGCDQU.1460.1QBI6D
+[2021-04-05T20:11:52.241314 1460 ] Copying module.src.downloader.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/8/2aae635b26ba2bb7194117be02f82a-824407.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/8/2aae635b26ba2bb7194117be02f82a-824407.o.DESKTOP-OBGCDQU.1460.SS92c3 (uncompressed)
+[2021-04-05T20:11:52.244339 1460 ] Stored in cache: module.src.downloader.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/8/2aae635b26ba2bb7194117be02f82a-824407.o (copied)
+[2021-04-05T20:11:52.252345 1460 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/0/fdd609111d6ec6e2735c1377863868-242304.manifest
+[2021-04-05T20:11:52.255344 1460 ] Result: cache miss
+[2021-04-05T20:11:52.255344 1460 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-04-05T20:11:52.258342 1460 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-04-05T20:11:52.442339 7864 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) base_dir = 
+[2021-04-05T20:11:52.442339 7864 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) compiler = 
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) compression = false
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) debug = false
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) disable = false
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) hard_link = false
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:52.442339 7864 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) max_files = 0
+[2021-04-05T20:11:52.442339 7864 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) path = 
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) read_only = false
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) recache = false
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) stats = true
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:52.442339 7864 ] Config: (default) umask = 
+[2021-04-05T20:11:52.443338 7864 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o module.src.ui.MainWindow.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.src.ui.MainWindow.c
+[2021-04-05T20:11:52.443338 7864 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:52.443338 7864 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:52.444337 7864 ] Source file: module.src.ui.MainWindow.c
+[2021-04-05T20:11:52.444337 7864 ] Object file: module.src.ui.MainWindow.o
+[2021-04-05T20:11:52.444337 7864 ] Trying direct lookup
+[2021-04-05T20:11:52.446340 7864 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/2/5be50dc976cee03222cfaf94c9c8a7-380630.manifest
+[2021-04-05T20:11:52.458339 7864 ] Did not find object file hash in manifest
+[2021-04-05T20:11:52.462344 7864 ] Running preprocessor
+[2021-04-05T20:11:52.935344 4992 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/1/7b0b312c5ed53759e94ef367a0ab60-729855.o.tmp.stdout.DESKTOP-OBGCDQU.4992.FzP5tM
+[2021-04-05T20:11:52.936343 4992 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/1/7b0b312c5ed53759e94ef367a0ab60-729855.o.tmp.stderr.DESKTOP-OBGCDQU.4992.1QBI6D
+[2021-04-05T20:11:52.937344 4992 ] Copying module.src.ui.Login.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/1/7b0b312c5ed53759e94ef367a0ab60-729855.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/1/7b0b312c5ed53759e94ef367a0ab60-729855.o.DESKTOP-OBGCDQU.4992.SS92c3 (uncompressed)
+[2021-04-05T20:11:52.939341 4992 ] Stored in cache: module.src.ui.Login.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/1/7b0b312c5ed53759e94ef367a0ab60-729855.o (copied)
+[2021-04-05T20:11:52.946337 4992 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/a018930df834684085bd82db65ae4e-145403.manifest
+[2021-04-05T20:11:52.947340 4992 ] Result: cache miss
+[2021-04-05T20:11:52.948340 4992 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-04-05T20:11:52.950339 4992 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-04-05T20:11:53.025342 9488 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) base_dir = 
+[2021-04-05T20:11:53.025342 9488 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) compiler = 
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) compression = false
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) debug = false
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) disable = false
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) hard_link = false
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:53.025342 9488 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) max_files = 0
+[2021-04-05T20:11:53.025342 9488 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) path = 
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) read_only = false
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) recache = false
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) stats = true
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:53.025342 9488 ] Config: (default) umask = 
+[2021-04-05T20:11:53.026339 9488 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o module.src.ui.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.src.ui.c
+[2021-04-05T20:11:53.026339 9488 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:53.026339 9488 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:53.026339 9488 ] Source file: module.src.ui.c
+[2021-04-05T20:11:53.026339 9488 ] Object file: module.src.ui.o
+[2021-04-05T20:11:53.026339 9488 ] Trying direct lookup
+[2021-04-05T20:11:53.027338 9488 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/c/6c0383176c81fac85df43d21fe2135-28469.manifest
+[2021-04-05T20:11:53.039341 9488 ] Did not find object file hash in manifest
+[2021-04-05T20:11:53.040340 9488 ] Running preprocessor
+[2021-04-05T20:11:53.088342 7864 ] Got object file hash from preprocessor
+[2021-04-05T20:11:53.089343 7864 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/014309bc14a9359893e23adabf7719-978575.o not in cache
+[2021-04-05T20:11:53.089343 7864 ] Running real compiler
+[2021-04-05T20:11:53.486340 9488 ] Got object file hash from preprocessor
+[2021-04-05T20:11:53.487338 9488 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/5/bb5fed124ffd919993d1ef984f543b-611507.o not in cache
+[2021-04-05T20:11:53.487338 9488 ] Running real compiler
+[2021-04-05T20:11:54.054340 9960 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/f/51e73ac39f19fe97f0c2bd6b01641e-854719.o.tmp.stdout.DESKTOP-OBGCDQU.9960.FzP5tM
+[2021-04-05T20:11:54.055340 9960 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/f/51e73ac39f19fe97f0c2bd6b01641e-854719.o.tmp.stderr.DESKTOP-OBGCDQU.9960.1QBI6D
+[2021-04-05T20:11:54.056337 9960 ] Copying module.src.novel.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/f/51e73ac39f19fe97f0c2bd6b01641e-854719.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/f/51e73ac39f19fe97f0c2bd6b01641e-854719.o.DESKTOP-OBGCDQU.9960.SS92c3 (uncompressed)
+[2021-04-05T20:11:54.060339 9960 ] Stored in cache: module.src.novel.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/f/51e73ac39f19fe97f0c2bd6b01641e-854719.o (copied)
+[2021-04-05T20:11:54.066340 9960 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/c/a0249373799c9fd4f4ff2dfbc4d914-261717.manifest
+[2021-04-05T20:11:54.069342 9960 ] Result: cache miss
+[2021-04-05T20:11:54.069342 9960 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-04-05T20:11:54.072345 9960 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-04-05T20:11:54.148343 9488 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/5/bb5fed124ffd919993d1ef984f543b-611507.o.tmp.stdout.DESKTOP-OBGCDQU.9488.FzP5tM
+[2021-04-05T20:11:54.149345 9488 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/5/bb5fed124ffd919993d1ef984f543b-611507.o.tmp.stderr.DESKTOP-OBGCDQU.9488.1QBI6D
+[2021-04-05T20:11:54.150278 9488 ] Copying module.src.ui.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/5/bb5fed124ffd919993d1ef984f543b-611507.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/5/bb5fed124ffd919993d1ef984f543b-611507.o.DESKTOP-OBGCDQU.9488.SS92c3 (uncompressed)
+[2021-04-05T20:11:54.152344 9488 ] Stored in cache: module.src.ui.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/5/bb5fed124ffd919993d1ef984f543b-611507.o (copied)
+[2021-04-05T20:11:54.159343 9488 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/c/6c0383176c81fac85df43d21fe2135-28469.manifest
+[2021-04-05T20:11:54.161343 9488 ] Result: cache miss
+[2021-04-05T20:11:54.162343 9488 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-04-05T20:11:54.165343 9488 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-04-05T20:11:54.237310 1516 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) base_dir = 
+[2021-04-05T20:11:54.237310 1516 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) compiler = 
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) compression = false
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) debug = false
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) disable = false
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) hard_link = false
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:54.237310 1516 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) max_files = 0
+[2021-04-05T20:11:54.237310 1516 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) path = 
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) read_only = false
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) recache = false
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) stats = true
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:54.237310 1516 ] Config: (default) umask = 
+[2021-04-05T20:11:54.237310 1516 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o module.src.user.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.src.user.c
+[2021-04-05T20:11:54.238342 1516 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:54.238342 1516 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:54.238342 1516 ] Source file: module.src.user.c
+[2021-04-05T20:11:54.238342 1516 ] Object file: module.src.user.o
+[2021-04-05T20:11:54.238342 1516 ] Trying direct lookup
+[2021-04-05T20:11:54.241312 1516 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/c/7167c83e6250251c60d47942d528ab-283763.manifest
+[2021-04-05T20:11:54.252339 1516 ] Did not find object file hash in manifest
+[2021-04-05T20:11:54.256345 1516 ] Running preprocessor
+[2021-04-05T20:11:54.263337 2256 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) base_dir = 
+[2021-04-05T20:11:54.263337 2256 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) compiler = 
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) compression = false
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) debug = false
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) disable = false
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) hard_link = false
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:54.263337 2256 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) max_files = 0
+[2021-04-05T20:11:54.263337 2256 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) path = 
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) read_only = false
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) recache = false
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) stats = true
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:54.263337 2256 ] Config: (default) umask = 
+[2021-04-05T20:11:54.263337 2256 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o module.src.utils.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.src.utils.c
+[2021-04-05T20:11:54.263337 2256 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:54.263337 2256 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:54.264337 2256 ] Source file: module.src.utils.c
+[2021-04-05T20:11:54.264337 2256 ] Object file: module.src.utils.o
+[2021-04-05T20:11:54.264337 2256 ] Trying direct lookup
+[2021-04-05T20:11:54.265338 2256 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/8/e4c392a66c2be683e4bc5d394b494e-184297.manifest
+[2021-04-05T20:11:54.279340 2256 ] Did not find object file hash in manifest
+[2021-04-05T20:11:54.281339 2256 ] Running preprocessor
+[2021-04-05T20:11:54.908342 9268 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/a/5003ef9eb25e57b2399b4368df7cd4-1289430.o.tmp.stdout.DESKTOP-OBGCDQU.9268.1QBI6D
+[2021-04-05T20:11:54.954339 9268 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/a/5003ef9eb25e57b2399b4368df7cd4-1289430.o.tmp.stderr.DESKTOP-OBGCDQU.9268.SS92c3
+[2021-04-05T20:11:55.013320 9268 ] Copying module.__main__.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/a/5003ef9eb25e57b2399b4368df7cd4-1289430.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/a/5003ef9eb25e57b2399b4368df7cd4-1289430.o.DESKTOP-OBGCDQU.9268.1Apgjk (uncompressed)
+[2021-04-05T20:11:55.037340 9268 ] Stored in cache: module.__main__.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/a/5003ef9eb25e57b2399b4368df7cd4-1289430.o (copied)
+[2021-04-05T20:11:55.064339 9268 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/b/0239eb1fa71c73c090041be5bde6f6-725128.manifest
+[2021-04-05T20:11:55.071339 9268 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-04-05T20:11:55.094340 1516 ] Got object file hash from preprocessor
+[2021-04-05T20:11:55.095344 1516 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/e/96d7a6eb5b27e1736f4b46649b7aa6-867530.o not in cache
+[2021-04-05T20:11:55.095344 1516 ] Running real compiler
+[2021-04-05T20:11:55.101341 9268 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-04-05T20:11:55.103339 2256 ] Got object file hash from preprocessor
+[2021-04-05T20:11:55.104341 2256 ] Object file C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/5/c298814ed6d54516d2eb588d36314b-764479.o not in cache
+[2021-04-05T20:11:55.104341 2256 ] Running real compiler
+[2021-04-05T20:11:55.123309 9268 ] Result: cache miss
+[2021-04-05T20:11:55.124308 9268 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2021-04-05T20:11:55.142337 9268 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2021-04-05T20:11:55.257338 9184 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) base_dir = 
+[2021-04-05T20:11:55.257338 9184 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) compiler = 
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) compression = false
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) debug = false
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) disable = false
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) hard_link = false
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:55.257338 9184 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) max_files = 0
+[2021-04-05T20:11:55.257338 9184 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) path = 
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) read_only = false
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) recache = false
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) stats = true
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:55.257338 9184 ] Config: (default) umask = 
+[2021-04-05T20:11:55.257338 9184 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o static_src\MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\MainProgram.c
+[2021-04-05T20:11:55.258339 9184 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:55.258339 9184 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:55.258339 9184 ] Source file: static_src\MainProgram.c
+[2021-04-05T20:11:55.258339 9184 ] Object file: static_src\MainProgram.o
+[2021-04-05T20:11:55.258339 9184 ] Trying direct lookup
+[2021-04-05T20:11:55.259339 9184 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/b/61fdc3544dcc9bbd14359e73d5b0a3-26322.manifest
+[2021-04-05T20:11:56.460043 9184 ] Got object file hash from manifest
+[2021-04-05T20:11:56.460043 9184 ] Copying C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/62ff52ca8ae2895f8e8f6ca6b96724-3970568.o to static_src\MainProgram.o (uncompressed)
+[2021-04-05T20:11:56.460043 9184 ] Created from cache: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/62ff52ca8ae2895f8e8f6ca6b96724-3970568.o -> static_src\MainProgram.o
+[2021-04-05T20:11:56.460043 9184 ] Succeeded getting cached result
+[2021-04-05T20:11:56.460043 9184 ] Result: cache hit (direct)
+[2021-04-05T20:11:56.460043 9184 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-04-05T20:11:56.460043 9184 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-04-05T20:11:56.582044 8872 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) base_dir = 
+[2021-04-05T20:11:56.582044 8872 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) compiler = 
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) compression = false
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) debug = false
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) disable = false
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) hard_link = false
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:56.582044 8872 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) max_files = 0
+[2021-04-05T20:11:56.582044 8872 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) path = 
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) read_only = false
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) recache = false
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) stats = true
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:56.582044 8872 ] Config: (default) umask = 
+[2021-04-05T20:11:56.583044 8872 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o static_src\CompiledCellType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledCellType.c
+[2021-04-05T20:11:56.583044 8872 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:56.583044 8872 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:56.584045 8872 ] Source file: static_src\CompiledCellType.c
+[2021-04-05T20:11:56.584045 8872 ] Object file: static_src\CompiledCellType.o
+[2021-04-05T20:11:56.584045 8872 ] Trying direct lookup
+[2021-04-05T20:11:56.584045 8872 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/a/a8dda882bf5a0385cc217cd0d359a8-8072.manifest
+[2021-04-05T20:11:56.701579 8872 ] Got object file hash from manifest
+[2021-04-05T20:11:56.701579 8872 ] Copying C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/e/3ac53c123f5442ad9366fe3e537f84-599748.o to static_src\CompiledCellType.o (uncompressed)
+[2021-04-05T20:11:56.701579 8872 ] Created from cache: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/e/3ac53c123f5442ad9366fe3e537f84-599748.o -> static_src\CompiledCellType.o
+[2021-04-05T20:11:56.701579 8872 ] Succeeded getting cached result
+[2021-04-05T20:11:56.701579 8872 ] Result: cache hit (direct)
+[2021-04-05T20:11:56.701579 8872 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-04-05T20:11:56.701579 8872 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-04-05T20:11:56.826580 5720 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) base_dir = 
+[2021-04-05T20:11:56.826580 5720 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) compiler = 
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) compression = false
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) debug = false
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) disable = false
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) hard_link = false
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:56.826580 5720 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) max_files = 0
+[2021-04-05T20:11:56.826580 5720 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) path = 
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) read_only = false
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) recache = false
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) stats = true
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:56.826580 5720 ] Config: (default) umask = 
+[2021-04-05T20:11:56.826580 5720 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledFunctionType.c
+[2021-04-05T20:11:56.826580 5720 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:56.826580 5720 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:56.826580 5720 ] Source file: static_src\CompiledFunctionType.c
+[2021-04-05T20:11:56.826580 5720 ] Object file: static_src\CompiledFunctionType.o
+[2021-04-05T20:11:56.826580 5720 ] Trying direct lookup
+[2021-04-05T20:11:56.826580 5720 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/7/edee597060d3112c9aebd2376ed4f4-79053.manifest
+[2021-04-05T20:11:56.920325 5720 ] Got object file hash from manifest
+[2021-04-05T20:11:56.935950 5720 ] Copying C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/f/f93079e9ef7e6a990cad3c574587c3-679646.o to static_src\CompiledFunctionType.o (uncompressed)
+[2021-04-05T20:11:56.935950 5720 ] Created from cache: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/f/f93079e9ef7e6a990cad3c574587c3-679646.o -> static_src\CompiledFunctionType.o
+[2021-04-05T20:11:56.935950 5720 ] Succeeded getting cached result
+[2021-04-05T20:11:56.935950 5720 ] Result: cache hit (direct)
+[2021-04-05T20:11:56.935950 5720 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-04-05T20:11:56.935950 5720 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-04-05T20:11:57.088276 10144] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:57.088276 10144] Config: (default) base_dir = 
+[2021-04-05T20:11:57.088276 10144] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:57.088276 10144] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:57.088276 10144] Config: (default) compiler = 
+[2021-04-05T20:11:57.088276 10144] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:57.088276 10144] Config: (default) compression = false
+[2021-04-05T20:11:57.088276 10144] Config: (default) compression_level = 6
+[2021-04-05T20:11:57.088276 10144] Config: (default) cpp_extension = 
+[2021-04-05T20:11:57.088276 10144] Config: (default) debug = false
+[2021-04-05T20:11:57.088276 10144] Config: (default) depend_mode = false
+[2021-04-05T20:11:57.088276 10144] Config: (default) direct_mode = true
+[2021-04-05T20:11:57.088276 10144] Config: (default) disable = false
+[2021-04-05T20:11:57.088276 10144] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:57.088276 10144] Config: (default) hard_link = false
+[2021-04-05T20:11:57.088276 10144] Config: (default) hash_dir = true
+[2021-04-05T20:11:57.088276 10144] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:57.088276 10144] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:57.088276 10144] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:57.088276 10144] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:57.088276 10144] Config: (default) max_files = 0
+[2021-04-05T20:11:57.088276 10144] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:57.088276 10144] Config: (default) path = 
+[2021-04-05T20:11:57.088276 10144] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:57.088276 10144] Config: (default) prefix_command = 
+[2021-04-05T20:11:57.088276 10144] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:57.088276 10144] Config: (default) read_only = false
+[2021-04-05T20:11:57.088276 10144] Config: (default) read_only_direct = false
+[2021-04-05T20:11:57.088276 10144] Config: (default) recache = false
+[2021-04-05T20:11:57.088276 10144] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:57.088276 10144] Config: (default) sloppiness = 
+[2021-04-05T20:11:57.088276 10144] Config: (default) stats = true
+[2021-04-05T20:11:57.088276 10144] Config: (default) temporary_dir = 
+[2021-04-05T20:11:57.088276 10144] Config: (default) umask = 
+[2021-04-05T20:11:57.089278 10144] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o static_src\CompiledGeneratorType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledGeneratorType.c
+[2021-04-05T20:11:57.089278 10144] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:57.089278 10144] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:57.090275 10144] Source file: static_src\CompiledGeneratorType.c
+[2021-04-05T20:11:57.090275 10144] Object file: static_src\CompiledGeneratorType.o
+[2021-04-05T20:11:57.090275 10144] Trying direct lookup
+[2021-04-05T20:11:57.090275 10144] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/6/3bc0ff8476780bc9b30c7c63dc3fbb-57502.manifest
+[2021-04-05T20:11:57.189437 10144] Got object file hash from manifest
+[2021-04-05T20:11:57.189437 10144] Copying C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/2/a4d89bb943450ea1607d8312f783f6-774599.o to static_src\CompiledGeneratorType.o (uncompressed)
+[2021-04-05T20:11:57.189437 10144] Created from cache: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/2/a4d89bb943450ea1607d8312f783f6-774599.o -> static_src\CompiledGeneratorType.o
+[2021-04-05T20:11:57.189437 10144] Succeeded getting cached result
+[2021-04-05T20:11:57.189437 10144] Result: cache hit (direct)
+[2021-04-05T20:11:57.189437 10144] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-04-05T20:11:57.189437 10144] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-04-05T20:11:57.408067 2256 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/5/c298814ed6d54516d2eb588d36314b-764479.o.tmp.stdout.DESKTOP-OBGCDQU.2256.FzP5tM
+[2021-04-05T20:11:57.423754 2256 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/5/c298814ed6d54516d2eb588d36314b-764479.o.tmp.stderr.DESKTOP-OBGCDQU.2256.1QBI6D
+[2021-04-05T20:11:57.423754 2256 ] Copying module.src.utils.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/5/c298814ed6d54516d2eb588d36314b-764479.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/5/c298814ed6d54516d2eb588d36314b-764479.o.DESKTOP-OBGCDQU.2256.SS92c3 (uncompressed)
+[2021-04-05T20:11:57.423754 2256 ] Stored in cache: module.src.utils.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/5/c298814ed6d54516d2eb588d36314b-764479.o (copied)
+[2021-04-05T20:11:57.439386 2256 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/8/e4c392a66c2be683e4bc5d394b494e-184297.manifest
+[2021-04-05T20:11:57.455001 2256 ] Result: cache miss
+[2021-04-05T20:11:57.455001 2256 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-04-05T20:11:57.486221 2256 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-04-05T20:11:58.219436 7864 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/014309bc14a9359893e23adabf7719-978575.o.tmp.stdout.DESKTOP-OBGCDQU.7864.FzP5tM
+[2021-04-05T20:11:58.219436 7864 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/014309bc14a9359893e23adabf7719-978575.o.tmp.stderr.DESKTOP-OBGCDQU.7864.1QBI6D
+[2021-04-05T20:11:58.219436 7864 ] Copying module.src.ui.MainWindow.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/014309bc14a9359893e23adabf7719-978575.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/014309bc14a9359893e23adabf7719-978575.o.DESKTOP-OBGCDQU.7864.SS92c3 (uncompressed)
+[2021-04-05T20:11:58.235006 7864 ] Stored in cache: module.src.ui.MainWindow.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/014309bc14a9359893e23adabf7719-978575.o (copied)
+[2021-04-05T20:11:58.303981 7864 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/2/5be50dc976cee03222cfaf94c9c8a7-380630.manifest
+[2021-04-05T20:11:58.339405 7864 ] Result: cache miss
+[2021-04-05T20:11:58.339405 7864 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-04-05T20:11:58.355002 3344 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) base_dir = 
+[2021-04-05T20:11:58.355002 3344 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) compiler = 
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) compression = false
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) debug = false
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) disable = false
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) hard_link = false
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:58.355002 3344 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) max_files = 0
+[2021-04-05T20:11:58.355002 3344 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) path = 
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) read_only = false
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) recache = false
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) stats = true
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:58.355002 3344 ] Config: (default) umask = 
+[2021-04-05T20:11:58.355002 3344 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o static_src\CompiledCodeHelpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledCodeHelpers.c
+[2021-04-05T20:11:58.355002 3344 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:58.355002 3344 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:58.355002 3344 ] Source file: static_src\CompiledCodeHelpers.c
+[2021-04-05T20:11:58.355002 3344 ] Object file: static_src\CompiledCodeHelpers.o
+[2021-04-05T20:11:58.355002 3344 ] Trying direct lookup
+[2021-04-05T20:11:58.355002 3344 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/1/5ba51504fef367ee54053a6f31c43e-55577.manifest
+[2021-04-05T20:11:58.355002 5568 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) base_dir = 
+[2021-04-05T20:11:58.355002 5568 ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) compiler = 
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) compression = false
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) compression_level = 6
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) debug = false
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) depend_mode = false
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) direct_mode = true
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) disable = false
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) hard_link = false
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) hash_dir = true
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:58.355002 5568 ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) max_files = 0
+[2021-04-05T20:11:58.355002 5568 ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) path = 
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) prefix_command = 
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) read_only = false
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) recache = false
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) sloppiness = 
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) stats = true
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:58.355002 5568 ] Config: (default) umask = 
+[2021-04-05T20:11:58.355002 5568 ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o static_src\InspectPatcher.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\InspectPatcher.c
+[2021-04-05T20:11:58.355002 5568 ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:58.355002 5568 ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:58.355002 5568 ] Source file: static_src\InspectPatcher.c
+[2021-04-05T20:11:58.355002 5568 ] Object file: static_src\InspectPatcher.o
+[2021-04-05T20:11:58.355002 5568 ] Trying direct lookup
+[2021-04-05T20:11:58.355002 5568 ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/7/31597eb6d872053f0da44b8cacfd9e-13736.manifest
+[2021-04-05T20:11:58.386280 7864 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-04-05T20:11:58.495654 5568 ] Got object file hash from manifest
+[2021-04-05T20:11:58.495654 5568 ] Copying C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/1/4fc0f61c63e23b85b639fca5b3968f-605433.o to static_src\InspectPatcher.o (uncompressed)
+[2021-04-05T20:11:58.495654 5568 ] Created from cache: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/1/4fc0f61c63e23b85b639fca5b3968f-605433.o -> static_src\InspectPatcher.o
+[2021-04-05T20:11:58.495654 5568 ] Succeeded getting cached result
+[2021-04-05T20:11:58.495654 5568 ] Result: cache hit (direct)
+[2021-04-05T20:11:58.495654 5568 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2021-04-05T20:11:58.556987 5568 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2021-04-05T20:11:58.577958 960  ] === CCACHE 3.7.12 STARTED =========================================
+[2021-04-05T20:11:58.577958 960  ] Config: (default) base_dir = 
+[2021-04-05T20:11:58.577958 960  ] Config: (environment) cache_dir = C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-04-05T20:11:58.577958 960  ] Config: (default) cache_dir_levels = 2
+[2021-04-05T20:11:58.577958 960  ] Config: (default) compiler = 
+[2021-04-05T20:11:58.577958 960  ] Config: (default) compiler_check = mtime
+[2021-04-05T20:11:58.577958 960  ] Config: (default) compression = false
+[2021-04-05T20:11:58.577958 960  ] Config: (default) compression_level = 6
+[2021-04-05T20:11:58.577958 960  ] Config: (default) cpp_extension = 
+[2021-04-05T20:11:58.577958 960  ] Config: (default) debug = false
+[2021-04-05T20:11:58.577958 960  ] Config: (default) depend_mode = false
+[2021-04-05T20:11:58.577958 960  ] Config: (default) direct_mode = true
+[2021-04-05T20:11:58.577958 960  ] Config: (default) disable = false
+[2021-04-05T20:11:58.577958 960  ] Config: (default) extra_files_to_hash = 
+[2021-04-05T20:11:58.577958 960  ] Config: (default) hard_link = false
+[2021-04-05T20:11:58.577958 960  ] Config: (default) hash_dir = true
+[2021-04-05T20:11:58.577958 960  ] Config: (default) ignore_headers_in_manifest = 
+[2021-04-05T20:11:58.577958 960  ] Config: (default) keep_comments_cpp = false
+[2021-04-05T20:11:58.577958 960  ] Config: (default) limit_multiple = 0.8
+[2021-04-05T20:11:58.577958 960  ] Config: (environment) log_file = F:\wenku8downloader\o\gui_main.build\ccache-7528.txt
+[2021-04-05T20:11:58.577958 960  ] Config: (default) max_files = 0
+[2021-04-05T20:11:58.577958 960  ] Config: (C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-04-05T20:11:58.577958 960  ] Config: (default) path = 
+[2021-04-05T20:11:58.577958 960  ] Config: (default) pch_external_checksum = false
+[2021-04-05T20:11:58.577958 960  ] Config: (default) prefix_command = 
+[2021-04-05T20:11:58.577958 960  ] Config: (default) prefix_command_cpp = 
+[2021-04-05T20:11:58.577958 960  ] Config: (default) read_only = false
+[2021-04-05T20:11:58.577958 960  ] Config: (default) read_only_direct = false
+[2021-04-05T20:11:58.577958 960  ] Config: (default) recache = false
+[2021-04-05T20:11:58.577958 960  ] Config: (default) run_second_cpp = true
+[2021-04-05T20:11:58.577958 960  ] Config: (default) sloppiness = 
+[2021-04-05T20:11:58.577958 960  ] Config: (default) stats = true
+[2021-04-05T20:11:58.577958 960  ] Config: (default) temporary_dir = 
+[2021-04-05T20:11:58.577958 960  ] Config: (default) umask = 
+[2021-04-05T20:11:58.578983 960  ] Command line: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe F:\mingw64\bin\gcc.exe -o static_src\MetaPathBasedLoader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\MetaPathBasedLoader.c
+[2021-04-05T20:11:58.578983 960  ] Hostname: DESKTOP-OBGCDQU
+[2021-04-05T20:11:58.578983 960  ] Working directory: F:\wenku8downloader\o\gui_main.build
+[2021-04-05T20:11:58.579956 960  ] Source file: static_src\MetaPathBasedLoader.c
+[2021-04-05T20:11:58.579956 960  ] Object file: static_src\MetaPathBasedLoader.o
+[2021-04-05T20:11:58.579956 960  ] Trying direct lookup
+[2021-04-05T20:11:58.579956 960  ] Looking for object file hash in C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/d/91f5f5042e5464be09d3620a848911-53381.manifest
+[2021-04-05T20:11:58.709987 1516 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/e/96d7a6eb5b27e1736f4b46649b7aa6-867530.o.tmp.stdout.DESKTOP-OBGCDQU.1516.FzP5tM
+[2021-04-05T20:11:58.711984 1516 ] Unlink C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/e/96d7a6eb5b27e1736f4b46649b7aa6-867530.o.tmp.stderr.DESKTOP-OBGCDQU.1516.1QBI6D
+[2021-04-05T20:11:58.712985 1516 ] Copying module.src.user.o to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/e/96d7a6eb5b27e1736f4b46649b7aa6-867530.o via C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/e/96d7a6eb5b27e1736f4b46649b7aa6-867530.o.DESKTOP-OBGCDQU.1516.SS92c3 (uncompressed)
+[2021-04-05T20:11:58.714985 1516 ] Stored in cache: module.src.user.o -> C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/e/96d7a6eb5b27e1736f4b46649b7aa6-867530.o (copied)
+[2021-04-05T20:11:58.720982 3344 ] Got object file hash from manifest
+[2021-04-05T20:11:58.722984 3344 ] Copying C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/d/3dabe953f035dc23cea45eeeb0670e-5641544.o to static_src\CompiledCodeHelpers.o (uncompressed)
+[2021-04-05T20:11:58.723982 3344 ] Created from cache: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/d/3dabe953f035dc23cea45eeeb0670e-5641544.o -> static_src\CompiledCodeHelpers.o
+[2021-04-05T20:11:58.725985 3344 ] Succeeded getting cached result
+[2021-04-05T20:11:58.725985 3344 ] Result: cache hit (direct)
+[2021-04-05T20:11:58.726986 3344 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-04-05T20:11:58.728984 3344 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-04-05T20:11:58.730984 1516 ] Added object file hash to C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/c/7167c83e6250251c60d47942d528ab-283763.manifest
+[2021-04-05T20:11:58.732982 1516 ] Result: cache miss
+[2021-04-05T20:11:58.733983 1516 ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-04-05T20:11:58.735985 1516 ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-04-05T20:11:58.747983 960  ] Got object file hash from manifest
+[2021-04-05T20:11:58.748985 960  ] Copying C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/7482cb0599e8e6dc1836c4a2f13ff0-2809415.o to static_src\MetaPathBasedLoader.o (uncompressed)
+[2021-04-05T20:11:58.749986 960  ] Created from cache: C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/7482cb0599e8e6dc1836c4a2f13ff0-2809415.o -> static_src\MetaPathBasedLoader.o
+[2021-04-05T20:11:58.749986 960  ] Succeeded getting cached result
+[2021-04-05T20:11:58.750984 960  ] Result: cache hit (direct)
+[2021-04-05T20:11:58.750984 960  ] Acquired lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2021-04-05T20:11:58.754982 960  ] Releasing lock C:\Users\Admin\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock

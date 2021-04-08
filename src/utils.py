@@ -47,7 +47,7 @@ def no_utf8_code(text) -> str: return text.encode(encoding="gbk", errors="ignore
                                                                                           errors="ignore")
 
 
-def resize(raw_img, target_w=580, target_h=720):
+def resize(raw_img, target_w=406, target_h=504):
     i = Image.open(BytesIO(raw_img))
     raw_w, raw_h = i.size
     black_background = Image.new("RGB", (target_w, target_h))

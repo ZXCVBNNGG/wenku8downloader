@@ -35,21 +35,24 @@ class QTextBrowserLogger(logging.Handler):
 class GetNovelThread(QThread):
     trigger = pyqtSignal(Novel)
 
-    def __init__(self, nid):
+    def __init__(self, nid, parent=None):
         self.nid = nid
-        super(GetNovelThread, self).__init__()
+        self._mutex = QMutex()
+        super(GetNovelThread, self).__init__(parent=parent)
 
     def run(self) -> None:
+        self._mutex.lock()
         logging.info("正在获取小说信息")
         n = Novel(self.nid)
         self.trigger.emit(n)
+        self._mutex.unlock()
 
 
 class GetNovelFromBookcaseThread(QThread):
     trigger = pyqtSignal(list)
 
-    def __init__(self, id):
-        super(GetNovelFromBookcaseThread, self).__init__()
+    def __init__(self, id, parent=None):
+        super(GetNovelFromBookcaseThread, self).__init__(parent=parent)
         self._mutex = QMutex()
         self.id = id
 
@@ -124,7 +127,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_mainWindow):
 
     def onBookAddClicked(self):
         if bool(self.BookID.text()):
-            t = GetNovelThread(self.BookID.text())
+            t = GetNovelThread(self.BookID.text(), parent=self)
             t.start()
             t.trigger.connect(self.add_novel)
 
