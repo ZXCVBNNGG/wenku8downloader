@@ -1,8 +1,9 @@
-name: make PyInstaller packaged release
+
+name: Bulid-Win
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ master ]
 
 jobs:
   build-win-x86:
