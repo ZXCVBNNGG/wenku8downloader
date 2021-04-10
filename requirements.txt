@@ -1,5 +1,7 @@
-requests
-BeautifulSoup4
-tenacity
-regex
-Pillow
+requests~=2.25.1
+BeautifulSoup4~=4.9.3
+tenacity~=7.0.0
+regex~=2021.3.17
+Pillow~=8.1.2
+urllib3~=1.26.4
+PyQt5~=5.15.4
