@@ -8,7 +8,7 @@ from requests.cookies import RequestsCookieJar
 from src.exceptions import LoginFailedError
 from src.novel import Novel
 from src.user import SelfUser
-from src.utils import get_imgs
+from src.utils import get_imgs, to_jpg
 from src.utils import mkdir
 from src.utils import no_utf8_code
 from src.utils import request
@@ -77,7 +77,10 @@ while True:
                     for l in imgs:
                         with open(imgs_dir + "/" + str(imgs.index(l)) + ".jpg", "wb") as f:
                             print(f"保存第{str(imgs.index(l))}张插图")
-                            f.write(resize(request(l, cookies).content if isResize else request(l, cookies).content))
+                            if isResize:
+                                f.write(resize(request(l, cookies).content))
+                            else:
+                                f.write(to_jpg(request(l, cookies).content))
                 elif i["chapters"].index(j) == 0:
                     c = request(f"http://dl2.wenku8.com/packtxt.php?aid={id}&vid={j['cid'] - 1}&charset=gbk", cookies)
                     with open(chapter_dir + "/" + i["name"] + ".txt", "a") as f:
