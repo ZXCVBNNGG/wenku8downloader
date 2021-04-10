@@ -71,3 +71,10 @@ def resize(raw_img, target_w=406, target_h=504):
     black_background.save(b, format="jpeg")
     img = b.getvalue()
     return img
+
+
+def to_jpg(raw_img):
+    i = Image.open(BytesIO(raw_img))
+    b = BytesIO()
+    i.save(b, format="jpeg")
+    return b.getvalue()
