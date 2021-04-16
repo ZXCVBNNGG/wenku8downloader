@@ -83,7 +83,7 @@ while True:
                                 f.write(to_jpg(request(l, cookies).content))
                 elif i["chapters"].index(j) == 0:
                     c = request(f"http://dl3.wenku8.com/packtxt.php?aid={id}&vid={j['cid'] - 1}&charset=gbk", cookies)
-                    with open(chapter_dir + "/" + i["name"] + ".txt", "a") as f:
+                    with open(chapter_dir + "/" + i["name"] + id + ".txt", "a") as f:
                         print("保存中...")
                         text = no_utf8_code(c.text)
                         f.write(text)
