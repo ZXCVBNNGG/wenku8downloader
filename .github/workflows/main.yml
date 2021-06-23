@@ -1,4 +1,3 @@
-
 name: Bulid-Win
 
 on:
@@ -9,63 +8,63 @@ jobs:
   build-win-x86:
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.9 x86
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.9
-        architecture: x86
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
-        pip install pyinstaller
-      shell: cmd
-    - name: Build
-      run: |
-        pyinstaller --onefile main.py
-        pyinstaller --onefile gui_main.py
-        cd dist
-        ren main.exe Wenku8Downloader-CLI-x86.exe
-        ren gui_main.exe Wenku8Downloader-GUI-x86.exe
-    - name: Upload CLI artifact
-      uses: actions/upload-artifact@v2.1.4
-      with:
-        name: Wenku8Downloader-CLI-x86
-        path: dist/Wenku8Downloader-CLI-x86.exe
-    - name: Upload GUI artifact
-      uses: actions/upload-artifact@v2.1.4
-      with:
-        name: Wenku8Downloader-GUI-x86
-        path: dist/Wenku8Downloader-GUI-x86.exe
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.9 x86
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+          architecture: x86
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pyinstaller
+        shell: cmd
+      - name: Build
+        run: |
+          pyinstaller --onefile main.py
+          pyinstaller --onefile gui_main.py
+          cd dist
+          ren main.exe Wenku8Downloader-CLI-x86.exe
+          ren gui_main.exe Wenku8Downloader-GUI-x86.exe
+      - name: Upload CLI artifact
+        uses: actions/upload-artifact@v2.1.4
+        with:
+          name: Wenku8Downloader-CLI-x86
+          path: dist/Wenku8Downloader-CLI-x86.exe
+      - name: Upload GUI artifact
+        uses: actions/upload-artifact@v2.1.4
+        with:
+          name: Wenku8Downloader-GUI-x86
+          path: dist/Wenku8Downloader-GUI-x86.exe
 
   build-win-amd64:
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.9 x86
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.9
-        architecture: x64
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
-        pip install pyinstaller
-      shell: cmd
-    - name: Build
-      run: |
-        pyinstaller --onefile main.py
-        pyinstaller --onefile gui_main.py
-        cd dist
-        ren main.exe Wenku8Downloader-CLI-x64.exe
-        ren gui_main.exe Wenku8Downloader-GUI-x64.exe
-    - name: Upload CLI artifact
-      uses: actions/upload-artifact@v2.1.4
-      with:
-        name: Wenku8Downloader-CLI-x64
-        path: dist/Wenku8Downloader-CLI-x64.exe
-    - name: Upload GUI artifact
-      uses: actions/upload-artifact@v2.1.4
-      with:
-        name: Wenku8Downloader-GUI-x64
-        path: dist/Wenku8Downloader-GUI-x64.exe
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.9 x86
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+          architecture: x64
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pyinstaller
+        shell: cmd
+      - name: Build
+        run: |
+          pyinstaller --onefile main.py
+          pyinstaller --onefile gui_main.py
+          cd dist
+          ren main.exe Wenku8Downloader-CLI-x64.exe
+          ren gui_main.exe Wenku8Downloader-GUI-x64.exe
+      - name: Upload CLI artifact
+        uses: actions/upload-artifact@v2.1.4
+        with:
+          name: Wenku8Downloader-CLI-x64
+          path: dist/Wenku8Downloader-CLI-x64.exe
+      - name: Upload GUI artifact
+        uses: actions/upload-artifact@v2.1.4
+        with:
+          name: Wenku8Downloader-GUI-x64
+          path: dist/Wenku8Downloader-GUI-x64.exe

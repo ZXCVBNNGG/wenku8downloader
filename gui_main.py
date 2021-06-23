@@ -3,7 +3,6 @@ import os
 import pickle
 import sys
 from os import path
-from typing import Union, Literal
 
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import Qt, QThread, pyqtSignal, QMutex
@@ -18,6 +17,8 @@ from src.novel import Novel
 from src.ui.Login import Ui_Dialog
 from src.ui.MainWindow import Ui_mainWindow
 from src.user import SelfUser
+
+novel_info_get_mutex = QMutex()
 
 
 class QTextBrowserLogger(logging.Handler):
@@ -37,34 +38,13 @@ class GetNovelThread(QThread):
 
     def __init__(self, nid, parent=None):
         self.nid = nid
-        self._mutex = QMutex()
         super(GetNovelThread, self).__init__(parent=parent)
 
     def run(self) -> None:
-        self._mutex.lock()
+        novel_info_get_mutex.lock()
         logging.info("正在获取小说信息")
         n = Novel(self.nid)
         self.trigger.emit(n)
-        self._mutex.unlock()
-
-
-class GetNovelFromBookcaseThread(QThread):
-    trigger = pyqtSignal(list)
-
-    def __init__(self, id, parent=None):
-        super(GetNovelFromBookcaseThread, self).__init__(parent=parent)
-        self._mutex = QMutex()
-        self.id = id
-
-    def run(self) -> None:
-        self._mutex.lock()
-        b = Bookcase(self.id)
-        novels = []
-        for i in b.books:
-            n = Novel(i)
-            novels.append(n)
-        self.trigger.emit(novels)
-        self._mutex.unlock()
 
 
 class DownloadThread(QThread):
@@ -101,6 +81,18 @@ class DownloadThread(QThread):
                         logging.info("下载成功！")
 
 
+class GetBookCaseThread(QThread):
+    trigger = pyqtSignal(Bookcase)
+
+    def __init__(self, bid, parent=None):
+        super(GetBookCaseThread, self).__init__(parent=parent)
+        self.bid = bid
+
+    def run(self):
+        b = Bookcase(self.bid)
+        self.trigger.emit(b)
+
+
 class MainWindow(QtWidgets.QMainWindow, Ui_mainWindow):
     def __init__(self, parent=None):
         self.cachedBooks = {}
@@ -135,9 +127,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_mainWindow):
         n = self.getByName(name)
         cover = QPixmap()
         cover.loadFromData(n.cover)
+        self.BookCover.setScaledContents(True)
         self.BookCover.setPixmap(cover)
         self.BookTextInfo.setText(
             f"标题：{n.title}\n作者：{n.author}\n文库：{n.library}\n状态：{n.status}\n简介：{n.briefIntroduction}")
+        self.Volumes.clear()
         for i in n.volumeList:
             self.Volumes.addItem(i["name"])
         self.Book.show()
@@ -173,20 +167,17 @@ class MainWindow(QtWidgets.QMainWindow, Ui_mainWindow):
         logging.info(f"获取{n.title}信息成功")
         self.cachedBooks.update({n.title: n})
         self.BookList.addItem(n.title)
+        novel_info_get_mutex.unlock()
 
     def getByName(self, x) -> Novel:
         return self.cachedBooks[x.text()]
 
     def getFromBookcase(self):
-        id = self.Bookcase.currentIndex()
-
-        def add(n):
-            for i in n:
-                self.add_novel(i)
-
-        t = GetNovelFromBookcaseThread(id)
-        t.start()
-        t.trigger.connect(add)
+        b = Bookcase(self.Bookcase.currentIndex())
+        for i in b.books:
+            n = GetNovelThread(i, parent=self)
+            n.start()
+            n.trigger.connect(self.add_novel)
 
 
 class LoginWindow(QtWidgets.QDialog, Ui_Dialog):

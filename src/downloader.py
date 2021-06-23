@@ -19,7 +19,8 @@ class Downloader:
 
     @classmethod
     def singleVolume(cls, vid: int, name: str):
-        c = request(f"http://{cls.downSite}.wenku8.com/packtxt.php?aid={cls.novel.id}&vid={vid}&charset=gbk", SelfUser.cookies)
+        c = request(f"http://{cls.downSite}.wenku8.com/packtxt.php?aid={cls.novel.id}&vid={vid}&charset=gbk",
+                    SelfUser.cookies)
         chapter_dir = cls.root_dir + "/" + name
         mkdir(chapter_dir)
         with open(chapter_dir + "/" + name + ".txt", "w") as f:
@@ -45,4 +46,5 @@ class Downloader:
         mkdir(imgs_dir)
         for i in imgs:
             with open(imgs_dir + "/" + str(imgs.index(i)) + ".jpg", "wb") as f:
-                f.write(resize(request(i, SelfUser.cookies).content if is_resize else request(i, SelfUser.cookies).content))
+                f.write(
+                    resize(request(i, SelfUser.cookies).content if is_resize else request(i, SelfUser.cookies).content))
