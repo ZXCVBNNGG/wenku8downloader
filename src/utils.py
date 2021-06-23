@@ -5,7 +5,6 @@ from typing import List
 import regex
 import requests
 from PIL import Image
-from PIL.ImageDraw import ImageDraw
 from bs4 import BeautifulSoup
 from tenacity import *
 
@@ -37,9 +36,9 @@ def mkdir(path: str):
         os.mkdir(path)
 
 
-@retry(stop=stop_after_attempt(3), wait=wait_fixed(5),)
+@retry(stop=stop_after_attempt(10), wait=wait_fixed(5))
 def request(url, cookies):
-    r = requests.get(url, headers=headers, cookies=cookies)
+    r = requests.get(url, headers=headers, cookies=cookies, stream=True, timeout=(30, 30))
     r.encoding = "gbk"
     return r
 
@@ -48,10 +47,13 @@ def no_utf8_code(text) -> str: return text.encode(encoding="gbk", errors="ignore
                                                                                           errors="ignore")
 
 
-def resize(raw_img, target_w=580, target_h=720):
+def resize(raw_img, target_w=406, target_h=504):
     i = Image.open(BytesIO(raw_img))
     raw_w, raw_h = i.size
     black_background = Image.new("RGB", (target_w, target_h))
+    if (raw_w > raw_h and target_w < target_h) or (raw_w < raw_h and target_w > target_h):
+        i = i.transpose(Image.ROTATE_270)
+    raw_w, raw_h = i.size
     n1 = target_w / raw_w
     n2 = target_h / raw_h
     if n1 >= n2:
@@ -62,9 +64,9 @@ def resize(raw_img, target_w=580, target_h=720):
         h = int(n1 * raw_h)
     i = i.resize((w, h))
     if w == target_w:
-        black_background.paste(i, (0, int((target_h - h) / 2), target_w, int((target_h - h) / 2,)+h))
+        black_background.paste(i, (0, int((target_h - h) / 2)))
     else:
-        black_background.paste(i, (int((target_w - w) / 2), 0, int((target_w - w) / 2) + w, target_h, ))
+        black_background.paste(i, (int((target_w - w) / 2), 0))
     b = BytesIO()
     black_background.save(b, format="jpeg")
     img = b.getvalue()
