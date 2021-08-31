@@ -38,7 +38,7 @@ class Novel:
         main_page = BeautifulSoup(main_page_request.text, features="html.parser")
         main_web_content = main_page.text
         self.id = articleid
-        self.title = fast_regex(r"板([\s\S]*)\[推", main_web_content).lstrip()
+        self.title = fast_regex(r"槽([\s\S]*)\[推", main_web_content).lstrip()
         for i in [0, 1, 2]:
             read_page_request = requests.get(
                 f"http://www.wenku8.net/novel/{i}/{articleid}/index.htm",
