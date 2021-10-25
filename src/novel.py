@@ -39,12 +39,8 @@ class Novel:
         main_web_content = main_page.text
         self.id = articleid
         self.title = fast_regex(r"槽([\s\S]*)\[推", main_web_content).lstrip()
-        for i in [0, 1, 2]:
-            read_page_request = requests.get(
-                f"http://www.wenku8.net/novel/{i}/{articleid}/index.htm",
-                cookies=SelfUser.cookies, headers=headers)
-            if not read_page_request.status_code == 404:
-                self.statusCode = i
+        self.statusCode = int(str(articleid)[0:1]) if len(
+            str(articleid)) >= 4 else 0  # 这个statusCode实际上就是把文库的小说按每1000本进1的方式搞出来的
         assert bool(self.title)
         self.author = fast_regex(r"小说作者：(.*)", main_web_content)
         self.library = fast_regex(r"文库分类：(.*)", main_web_content)
