@@ -7,7 +7,7 @@ from src.utils import mkdir, request, no_utf8_code, get_imgs, resize
 
 class Downloader:
     root_dir: str
-    downSite = "dl3"
+    downSite = "dl2"
     novel: Novel
 
     @classmethod
@@ -47,4 +47,4 @@ class Downloader:
         for i in imgs:
             with open(imgs_dir + "/" + str(imgs.index(i)) + ".jpg", "wb") as f:
                 f.write(
-                    resize(request(i, SelfUser.cookies).content if is_resize else request(i, SelfUser.cookies).content))
+                    resize(request(i).content if is_resize else request(i).content))
